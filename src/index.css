@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 228 49% 26%;
+    --card: 0 0% 98%;
+    --card-foreground: 228 49% 26%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 228 49% 26%;
+    --primary: 228 49% 26%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 209 55% 48%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 228 20% 94%;
+    --muted-foreground: 228 15% 35%;
+    --accent: 41 96% 60%;
+    --accent-foreground: 228 49% 26%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 228 15% 88%;
+    --input: 228 15% 88%;
+    --ring: 209 55% 48%;
+    --radius: 0.5rem;
+    --sidebar-background: 228 49% 26%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 41 96% 60%;
+    --sidebar-primary-foreground: 228 49% 26%;
+    --sidebar-accent: 228 30% 35%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 228 25% 35%;
+    --sidebar-ring: 41 96% 60%;
+  }
+
+  .dark {
+    --background: 230 45% 11%;
+    --foreground: 210 40% 96%;
+    --card: 230 40% 16%;
+    --card-foreground: 210 40% 96%;
+    --popover: 230 40% 16%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 209 55% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 230 45% 26%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 230 25% 20%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 41 85% 64%;
+    --accent-foreground: 230 45% 11%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 230 25% 24%;
+    --input: 230 25% 24%;
+    --ring: 209 55% 50%;
+    --sidebar-background: 230 45% 14%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 209 55% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 230 25% 20%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 230 25% 24%;
+    --sidebar-ring: 209 55% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-aviation {
+    background: linear-gradient(135deg, #1a2252 0%, #222f64 50%, #1a2252 100%);
+  }
+  
+  .dark .gradient-aviation {
+    background: linear-gradient(135deg, #0a1228 0%, #141f3d 50%, #0a1228 100%);
+  }
+  
+  .gradient-card {
+    background: linear-gradient(145deg, rgba(34, 47, 100, 0.03) 0%, rgba(34, 47, 100, 0.06) 100%);
+  }
+  
+  .dark .gradient-card {
+    background: linear-gradient(145deg, rgba(55, 125, 189, 0.08) 0%, rgba(37, 47, 97, 0.2) 100%);
+  }
+  
+  .glow-blue {
+    box-shadow: 0 0 20px rgba(55, 125, 189, 0.1), 0 0 60px rgba(55, 125, 189, 0.03);
+  }
+  
+  .dark .glow-blue {
+    box-shadow: 0 0 20px rgba(55, 125, 189, 0.15), 0 0 60px rgba(55, 125, 189, 0.05);
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 20px rgba(55, 125, 189, 0.2);
+  }
+  
+  .dark .text-glow {
+    text-shadow: 0 0 20px rgba(55, 125, 189, 0.3);
+  }
+  
+  .border-glow {
+    border-color: rgba(55, 125, 189, 0.2);
+  }
+  
+  .dark .border-glow {
+    border-color: rgba(55, 125, 189, 0.3);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.4s ease-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(228, 15%, 95%);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: hsl(230, 45%, 11%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(228, 15%, 78%);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: hsl(230, 25%, 28%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(228, 15%, 65%);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: hsl(230, 25%, 38%);
+}
