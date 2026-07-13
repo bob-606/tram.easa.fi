@@ -90,7 +90,7 @@ export default function Home() {
     setSelectedSubjectId(subjectId);
     setShowModeSelector(false);
     setView('quiz');
-  }, [progress]);
+  }, []);
 
   const startDailyQuiz = useCallback(() => {
     const allQuestions = subjects.flatMap(s => s.questions);
@@ -123,6 +123,19 @@ export default function Home() {
     setView('subjects');
   }, []);
 
+  const handleFlashFinish = useCallback((results: { known: string[]; unknown: string[]; totalTime: number }) => {
+    if (selectedSubjectId && selectedSubjectId !== 'daily') {
+      progress.recordSessionComplete(selectedSubjectId, results.totalTime);
+      results.known.forEach(qid => {
+        progress.recordAnswer(selectedSubjectId, qid, -1, true);
+      });
+      results.unknown.forEach(qid => {
+        progress.recordAnswer(selectedSubjectId, qid, -1, false);
+      });
+    }
+    goHome();
+  }, [selectedSubjectId, progress, goHome]);
+
   const handleQuizFinish = useCallback((answers: Record<string, number>, timeSeconds: number) => {
     setQuizAnswers(answers);
     setQuizTime(timeSeconds);
@@ -144,9 +157,9 @@ export default function Home() {
     if (selectedSubjectId === 'daily') {
       startDailyQuiz();
     } else if (selectedSubjectId) {
-      startQuiz(selectedSubjectId, 'practice');
+      startQuiz(selectedSubjectId, quizMode);
     }
-  }, [selectedSubjectId, startQuiz, startDailyQuiz]);
+  }, [selectedSubjectId, quizMode, startQuiz, startDailyQuiz]);
 
   const openModeSelector = useCallback((subjectId: string) => {
     setModeSelectorSubject(subjectId);
@@ -160,7 +173,7 @@ export default function Home() {
           subject={selectedSubject}
           questions={quizQuestions}
           onExit={goHome}
-          onFinish={() => goHome()}
+          onFinish={handleFlashFinish}
         />
       );
     }

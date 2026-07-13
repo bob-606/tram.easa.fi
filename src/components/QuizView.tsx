@@ -65,12 +65,12 @@ export function QuizView({ subject, questions, mode, timeLimitSeconds, onFinish,
   };
 
   const handleAnswer = useCallback((optionIndex: number) => {
-    if (isStudyMode && answers[currentQuestion.id] !== undefined) return;
+    if (isStudyMode && answersRef.current[currentQuestion.id] !== undefined) return;
     setAnswers(prev => ({
       ...prev,
       [currentQuestion.id]: optionIndex,
     }));
-  }, [currentQuestion, isStudyMode, answers]);
+  }, [currentQuestion, isStudyMode]);
 
   const handleNext = useCallback(() => {
     if (currentIndex < totalQuestions - 1) {
@@ -137,7 +137,7 @@ export function QuizView({ subject, questions, mode, timeLimitSeconds, onFinish,
           handleAnswer(optIndex);
         }
       } else if (e.key === 'ArrowRight' || e.key === ' ') {
-        if (!(isStudyMode && answers[currentQuestion.id] === undefined)) {
+        if (!(isStudyMode && answersRef.current[currentQuestion.id] === undefined)) {
           e.preventDefault();
           handleNext();
         }
@@ -153,7 +153,7 @@ export function QuizView({ subject, questions, mode, timeLimitSeconds, onFinish,
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [showOverview, currentQuestion, handleAnswer, handleNext, handlePrev, handleFlag, onToggleBookmark, isStudyMode, answers]);
+  }, [showOverview, currentQuestion, handleNext, handlePrev, handleFlag, onToggleBookmark, isStudyMode, handleAnswer]);
 
   const getOptionLabel = (index: number) => {
     return ['A', 'B', 'C', 'D'][index];

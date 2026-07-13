@@ -9,12 +9,12 @@ export const subjects = [
       {
         "id": "airlaw_1",
         "number": 1,
-        "question": "Which of the following documents have to be on board for an international flight? a) Certificate of aircraft registration, b) Certificate of airworthiness, c) Airworthiness review certificate, d) EASA Form- 1, e) Airplane logbook, f) Appropriate papers for every crew member, g) Technical logbook",
+        "question": "Which of the following documents have to be on board for an international flight?",
         "options": [
-          "a, b, c, e, f",
-          "b, c, d, e, f, g",
-          "d, f, g",
-          "a, b, e, g"
+          "Certificate of aircraft registration, Certificate of airworthiness, Airworthiness review certificate, Airplane logbook, Appropriate papers for every crew member",
+          "Certificate of airworthiness, Airworthiness review certificate, EASA Form- 1, Airplane logbook, Appropriate papers for every crew member, Technical logbook",
+          "EASA Form- 1, Appropriate papers for every crew member, Technical logbook",
+          "Certificate of aircraft registration, Certificate of airworthiness, Airplane logbook, Technical logbook"
         ],
         "answer": 0
       },
@@ -81,10 +81,10 @@ export const subjects = [
       {
         "id": "airlaw_7",
         "number": 7,
-        "question": "Some of the objectives of EUROCONTROL are... air traffic control (ATC) over many Northern European countries in the upper airspace and air traffic flow management (ATFM). air traffic control (ATC) over Europe in the lower airspace and air traffic management for Europe provided by the central flow management unit (CFMU).",
+        "question": "Some of the objectives of EUROCONTROL are...",
         "options": [
-          "acceptance and transmission of flight plans (FPL) departing in Europe by the aeronautical information service-center (AIS-C).",
-          "flight information service (FIS) in all flight information regions (FIR) and upper flight information regions (UIR)."
+          "air traffic control (ATC) over many Northern European countries in the upper airspace and air traffic flow management (ATFM).",
+          "air traffic control (ATC) over Europe in the lower airspace and air traffic management for Europe provided by the central flow management unit (CFMU)."
         ],
         "answer": 0
       },
@@ -186,13 +186,14 @@ export const subjects = [
       {
         "id": "airlaw_16",
         "number": 16,
-        "question": "The possession of a european PPL(A) entitles the holder to... act as PIC on non-commercial flights without compensation as well as to receive compensation as a flight instrucor.",
+        "question": "The possession of a european PPL(A) entitles the holder to...",
         "options": [
           "act as PIC, and only for flights in aircraft with a MTOW of maximum 2000 kg a compensation may be obtained.",
           "act as pilot in commercial and non-commercial flights with single engine aircraft.",
-          "act as pilot on a commercial flight when there are at most 4 people on board."
+          "act as pilot on a commercial flight when there are at most 4 people on board.",
+          "act as PIC on non-commercial flights without compensation as well as to receive compensation as a flight instructor."
         ],
-        "answer": 0
+        "answer": 3
       },
       {
         "id": "airlaw_17",
@@ -257,13 +258,12 @@ export const subjects = [
       {
         "id": "airlaw_22",
         "number": 22,
-        "question": "What is the meaning of the abbreviation \"IMC\"? Instrument meteorological conditions Instrument flight rules",
+        "question": "What is the meaning of the abbreviation \"IMC\"?",
         "options": [
-          "Inter meteorological conditions",
-          "Instrument conditions",
-          "A single-engine piston and a turboprop aeroplane are approaching each other opposite at the same altitude."
+          "Instrument meteorological conditions",
+          "Instrument flight rules"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "airlaw_23",
@@ -313,12 +313,12 @@ export const subjects = [
       {
         "id": "airlaw_27",
         "number": 27,
-        "question": "Which sequence is correct with regard to the rules of priority? a) Gliders, b) Engine-driven aeroplanes, c) Hang-gliders / paragliders, d) Balloons (Start with the aircraft with the LOWEST priority.)",
+        "question": "Which sequence is correct with regard to the rules of priority?",
         "options": [
-          "b, a, c, d",
-          "a, b, c, d",
-          "d, c, b, a",
-          "d, a, c, b"
+          "Engine-driven aeroplanes, Gliders, Hang-gliders / paragliders, Balloons",
+          "Gliders, Engine-driven aeroplanes, Hang-gliders / paragliders, Balloons",
+          "Balloons, Hang-gliders / paragliders, Engine-driven aeroplanes, Gliders",
+          "Balloons, Gliders, Hang-gliders / paragliders, Engine-driven aeroplanes"
         ],
         "answer": 0
       },
@@ -589,7 +589,7 @@ export const subjects = [
       {
         "id": "airlaw_50",
         "number": 50,
-        "question": "What is the meaning of the abbreviation \"AIREP\"? Aeronautical information report Aircraft report Aeronautical instrument requirement report Automatic identification report 50. What information is provided in the general part (GEN) of the AIP? Map icons, list of radio nav aids, time for sunrise and sunset, airport fees, air traffic control fees Warnings for aviation, ATS airspaces and routes, restricted and dangerous airspaces",
+        "question": "What information is provided in the general part (GEN) of the AIP?",
         "options": [
           "Table of content, classification of airfields with corresponding maps, approach charts, taxi charts, restricted and dangerous airspaces",
           "Access restrictions for airfields, passenger controls, requirements for pilots, license samples and validity periods"
@@ -659,9 +659,9 @@ export const subjects = [
       {
         "id": "airlaw_56",
         "number": 56,
-        "question": "What information is provided by a SNOWTAM? Notifications of runway/taxiway/apron status with respect to snow, ice, and standing waterSpecial",
+        "question": "What information is provided by a SNOWTAM?",
         "options": [
-          "NOTAM, especially urgent",
+          "Notifications of runway/taxiway/apron status with respect to snow, ice, and standing water",
           "NOTAM information",
           "Information which can not be listed in the AIP",
           "Special information on recent changes on ICAO maps"
@@ -1530,9 +1530,9 @@ export const subjects = [
       {
         "id": "humanperf_51",
         "number": 51,
-        "question": "Which optical illusion might be caused by a runway with an upslope during the approach? The pilot has the feeling that the approach is too low and therefore approaches the runway above the regular glide slope The pilot has the feeling that the approach is too fast and reduces the speed below the normal approach speed",
+        "question": "Which optical illusion might be caused by a runway with an upslope during the approach?",
         "options": [
-          "The pilot has the feeling that the approach is too high and therefore descents below the regular glide slope",
+          "The pilot has the feeling that the approach is too high and therefore descends below the regular glide slope",
           "The pilot has the feeling that the approach is too slow and speeds up above the normal approach speed"
         ],
         "answer": 0
@@ -1648,10 +1648,10 @@ export const subjects = [
       {
         "id": "humanperf_61",
         "number": 61,
-        "question": "What has to be taken into consideration when comparing medication which is only available on prescription with medication that is available over the counter? Generally both types of medication have to be handled in the same way Medication which is only available on prescription is considered to have an impact on flight performance only if explicitly noted on the package insert",
+        "question": "What has to be taken into consideration when comparing medication which is only available on prescription with medication that is available over the counter?",
         "options": [
-          "Medication which is available over the counter is safe as long as a doctor has not expressed an opinion to the contrary",
-          "There is a notification requirement for medication which is sold over the counter if it is taken for a period exceeding 10 days"
+          "Generally both types of medication have to be handled in the same way",
+          "Medication which is only available on prescription is considered to have an impact on flight performance only if explicitly noted on the package insert"
         ],
         "answer": 0
       },
@@ -3442,12 +3442,12 @@ export const subjects = [
       {
         "id": "met_110",
         "number": 110,
-        "question": "Which of the following characteristic weather is associated with a cold front? Broad nimbostratus clouds with long lasting precipitation, no noteworthy change in wind direction Heavy cloud coverage with embedded Cb and strengthening showery precipitation (partially as thunderstorms), considerable change in wind direction to the right",
+        "question": "Which of the following characteristic weather is associated with a cold front?",
         "options": [
-          "After a compact formation of cirrus clouds, increasing cumulus coverage with mist, change in wind direction to the left",
-          "Considerable change in wind direction to the right, heavy medium-height cloud coverage, no precipitation"
+          "Broad nimbostratus clouds with long lasting precipitation, no noteworthy change in wind direction",
+          "Heavy cloud coverage with embedded Cb and strengthening showery precipitation (partially as thunderstorms), considerable change in wind direction to the right"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "id": "met_111",
@@ -4205,7 +4205,7 @@ export const subjects = [
       {
         "id": "met_174",
         "number": 174,
-        "question": "Which answer explains the meaning of the letter \"M\" in a GAFOR weather classification? Ground visibility less than 5 km but at least 1.5 km and ceiling (4/8 or more) below 1000 ft but not below 500 ft above the reference height Ground visibility less than 5 km but at least 1.5 km and ceiling (4/8 or more) below 1500 ft but not below 1000 ft above the reference height",
+        "question": "Which answer explains the meaning of the letter \"M\" in a GAFOR weather classification?",
         "options": [
           "Ground visibility less than 3 km but at least 1.5 km and ceiling (5/8 or more) below 1000 ft but not below 500 ft above the reference height",
           "Ground visibility less than 1.5 km and ceiling (4/8 or more) below 1000 ft but not below 500 ft above the reference height"
@@ -4298,13 +4298,12 @@ export const subjects = [
       {
         "id": "met_182",
         "number": 182,
-        "question": "Which of the following answers is the correct translation in plain language of this METAR: LEPA 240620Z 24012KT 5000 RA SCT005 BKN010 15/12 Q1015= Wind 240\u00b0 at 12 kt, visibility 5000 in, rain, 2-4/8 in 500 ft, 7/8 in 10000 ft, temperature 1,5 \u00b0C, dew point 1,2 \u00b0C,QNH 1015 hPa Wind 240\u00b0 at 12 km/h, visibility 500 m, moderate rain, 3-4/8 in 500 ft, 5-7/8 in 1000 ft, temperature 15\u00b0C, dew point 12\u00b0C, QNH 10,15 hPa",
+        "question": "Which of the following answers is the correct translation in plain language of this METAR: LEPA 240620Z 24012KT 5000 RA SCT005 BKN010 15/12 Q1015=",
         "options": [
-          "Wind 240\u00b0 at 12 kt, visibility 5000 m, moderate rain, 3-4/8 in 500 ft, 5-7/8 in 1000 ft, temperature 15",
-          "\u00b0C, dew point 12 \u00b0C, QNH 1015 hPa",
-          "Wind 240\u00b0 at 12 kt, visibility 5 km, rain, 2-4/8 in 500 ft, 5-6/8 in 1000 ft, temperature 1,5\u00b0C, dew point 1,2 \u00b0C, QNH 1015 hPa"
+          "Wind 240\u00b0 at 12 kt, visibility 5000 m, moderate rain, 3-4/8 in 500 ft, 5-7/8 in 1000 ft, temperature 15 \u00b0C, dew point 12 \u00b0C, QNH 1015 hPa",
+          "Wind 240\u00b0 at 12 kt, visibility 5 km, rain, 2-4/8 in 500 ft, 5-6/8 in 1000 ft, temperature 1,5 \u00b0C, dew point 1,2 \u00b0C, QNH 1015 hPa"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "met_183",
@@ -4426,12 +4425,12 @@ export const subjects = [
       {
         "id": "comm_2",
         "number": 2,
-        "question": "In which situations should a pilot use blind transmissions? When a transmission containing important navigational or technical information is to be sent to several stations at the same time When no radio communication can be established with the appropriate land station, but when evidence exists that transmissions are received at that ground unit",
+        "question": "In which situations should a pilot use blind transmissions?",
         "options": [
-          "When the traffic situation at an airport allows the transmission of information which does not need to be acknowledged by the ground station",
-          "When a pilot has flown into cloud or fog unintentionally and therefore would like to request navigational assistance from a ground unit"
+          "When a transmission containing important navigational or technical information is to be sent to several stations at the same time",
+          "When no radio communication can be established with the appropriate land station, but when evidence exists that transmissions are received at that ground unit"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "id": "comm_3",
@@ -4949,7 +4948,7 @@ export const subjects = [
       {
         "id": "comm_46",
         "number": 46,
-        "question": "What is the correct course of action when experiencing a radio failure in class D airspace? The flight has to be continued according to the last clearance complying with VFR rules or the airspace has to be left by the shortest route The flight has to be continued above 5000 feet complying with VFR flight rules or the airspace has to be left by the shortest route",
+        "question": "What is the correct course of action when experiencing a radio failure in class D airspace?",
         "options": [
           "The flight has to be continued above 5000 feet complying with VFR flight rules or the airspace has to be left using a standard routing",
           "The flight has to be continued according to the last clearance complying with VFR flight rules or the airspace has to be left using a standard routing"
@@ -4959,11 +4958,10 @@ export const subjects = [
       {
         "id": "comm_47",
         "number": 47,
-        "question": "Distress messages contain... information concerning urgent spare parts which are required for a continuation of flight and which have to be ordered in advance. information concerning aircraft and their passengers which face a grave and imminent threat and",
+        "question": "Distress messages contain...",
         "options": [
-          "require immediate assistance.",
-          "information concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
-          "information concerning the apron personell and which imply an imminent danger to landing aircraft."
+          "information concerning urgent spare parts which are required for a continuation of flight and which have to be ordered in advance.",
+          "information concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance."
         ],
         "answer": 1
       },
@@ -6260,10 +6258,10 @@ export const subjects = [
       {
         "id": "ops_1",
         "number": 1,
-        "question": "The term \"flight time\" is defined as... the total time from the first aircraft movement until the moment it finally comes to rest at the end of the flight. the period from the start of the take-off run to the final touchdown when landing.",
+        "question": "The term \"flight time\" is defined as...",
         "options": [
-          "the total time from the first take-off until the last landing in conjunction with one or more consecutive flights.",
-          "the period from engine start for the purpose of taking off to leaving the aircraft after engine shutdown."
+          "the total time from the first aircraft movement until the moment it finally comes to rest at the end of the flight.",
+          "the period from the start of the take-off run to the final touchdown when landing."
         ],
         "answer": 0
       },
@@ -6282,11 +6280,10 @@ export const subjects = [
       {
         "id": "ops_3",
         "number": 3,
-        "question": "What is the difference between a spin and a spiral dive? A spin is deliberately initiated while the spiral dive may occur in a stall A spin will result in a stall and the aircraft's maneuverability will be limited; in a spiral dive the airflow",
+        "question": "What is the difference between a spin and a spiral dive?",
         "options": [
-          "is not disrupted and therefore the aircraft is fully maneuverable",
-          "To terminate a spin reverse rudder always has to be applied first; during a spiral dive the control stick has to be pulled first to reduce speed",
-          "During a spin the speed rises whereas the speed drops during a spiral dive"
+          "A spin is deliberately initiated while the spiral dive may occur in a stall",
+          "A spin will result in a stall and the aircraft's maneuverability will be limited; in a spiral dive the airflow is not disrupted and therefore the aircraft is fully maneuverable"
         ],
         "answer": 1
       },
@@ -6473,10 +6470,10 @@ export const subjects = [
       {
         "id": "ops_20",
         "number": 20,
-        "question": "How can the pilot of an an engine-driven aircraft minimise the noise emission during descent and approach? High approach with minimum power setting, late descent, late configuration, adherence to established arrival routes Low approach with minimum power setting, late configuration and steep approach, adherence to established arrival routes",
+        "question": "How can the pilot of an engine-driven aircraft minimise the noise emission during descent and approach?",
         "options": [
-          "Normal approach with normal power setting, configuration prior to initiating descent, shortest possible arrival route",
-          "Descent and approach in landing configuration while maintaining a descent angle of 3\u00b0, direct approach whenever possible"
+          "High approach with minimum power setting, late descent, late configuration, adherence to established arrival routes",
+          "Low approach with minimum power setting, late configuration and steep approach, adherence to established arrival routes"
         ],
         "answer": 0
       },
@@ -6543,10 +6540,10 @@ export const subjects = [
       {
         "id": "ops_26",
         "number": 26,
-        "question": "How is a halon fire extinguisher used correctly? Disarm the safeguard. Hold upright. From a distance of 1 m to 1.5 m aim at the source of the fire and activate the trigger. Disarm the safeguard. Hold upright. Bring the nozzle as closely as possible to the source of the fire and activate the trigger.",
+        "question": "How is a halon fire extinguisher used correctly?",
         "options": [
-          "Disarm the safeguard. Hold horizontally. Bring the nozzle as closely as possible to the source of the fire and activate the trigger.",
-          "Disarm the safeguard. Hold horizontally. From a distance of 1 m to 1.5 m aim at the source of the fire and activate the trigger."
+          "Disarm the safeguard. Hold upright. From a distance of 1 m to 1.5 m aim at the source of the fire and activate the trigger.",
+          "Disarm the safeguard. Hold upright. Bring the nozzle as closely as possible to the source of the fire and activate the trigger."
         ],
         "answer": 0
       },
@@ -6721,7 +6718,7 @@ export const subjects = [
       {
         "id": "ops_41",
         "number": 41,
-        "question": "Where shall the required altitude be reached when crossing a mountain pass at the end of a narrow and steep valley? Before reaching the valley",
+        "question": "Where shall the required altitude be reached when crossing a mountain pass at the end of a narrow and steep valley?",
         "options": [
           "Shortly before reaching the mountain pass",
           "Overhead the mountain pass",
@@ -6780,7 +6777,7 @@ export const subjects = [
       {
         "id": "ops_46",
         "number": 46,
-        "question": "A light aircraft intends to land behind a commercial airliner belonging to wake turbulence category \"medium\" or \"heavy\" on a long runway. How can the wake turbulence of the commercial aircraft be avoided? By making a steep approach and a long landing, touching down behind the touchdown point of the airliner's nose gear By making a shallow approach and a very short landing. The light aircraft should be able to stop before reaching the airliner's touchdown point",
+        "question": "A light aircraft intends to land behind a commercial airliner belonging to wake turbulence category \"medium\" or \"heavy\" on a long runway. How can the wake turbulence of the commercial aircraft be avoided?",
         "options": [
           "By making a shallow approach and a long landing, touching down behind the touchdown point of the airliner's nose gear",
           "By making a steep approach and a very short landing. The light aircraft should be able to stop before reaching the airliner's touchdown point"
@@ -6885,13 +6882,13 @@ export const subjects = [
       {
         "id": "ops_55",
         "number": 55,
-        "question": "What is the correct action on a cross-country flight, when weather conditions are suddenly less than VMC minimums and cloud coverage above the aircraft is \"broken\" (BKN)? Climb to get above the cloud and continue the flight",
+        "question": "What is the correct action on a cross-country flight, when weather conditions are suddenly less than VMC minimums and cloud coverage above the aircraft is \"broken\" (BKN)?",
         "options": [
           "Maintain visual ground contact and land at the next available aerodrome",
           "Stay below the cloud coverage and continue the flight using the instruments if necessary",
           "Climb within clouds to a safe altitude using the instruments and continue the flight with radar guidance"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "ops_56",
@@ -7040,13 +7037,13 @@ export const subjects = [
       {
         "id": "ops_68",
         "number": 68,
-        "question": "Which would be the correct reaction when hydroplaning is suspected upon landing? If all wheels are in motion, brake moderately. Maintain directional control by aerodynamic means",
+        "question": "Which would be the correct reaction when hydroplaning is suspected upon landing?",
         "options": [
           "Apply maximum braking to reduce aircraft speed to less than hydroplaning speed, then continue normal ground roll",
-          "Add power and use flaps and spoilers to brake aerodynamically Cross rudder and aileron controls in",
-          "order to use the aircraft fuselage to brake aerodynamically"
+          "Add power and use flaps and spoilers to brake aerodynamically",
+          "If all wheels are in motion, brake moderately. Maintain directional control by aerodynamic means"
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "id": "ops_69",
@@ -7169,10 +7166,11 @@ export const subjects = [
       {
         "id": "perf_8",
         "number": 8,
-        "question": "The basic empty mass of an aircraft includes... the mass of the aeroplane plus standard items such as unusable fuel and other unusable liquids, lubricating oil in engine and auxiliary units, fire extinguishers, pyrotechnics, emergency oxygen equipment, supplementary electronic equipment. the total mass of the aeroplane ready for a specific type of operation excluding unusable fuel and traffic load. The mass includes items such as crew and crew baggage.",
+        "question": "The basic empty mass of an aircraft includes...",
         "options": [
-          "the total mass of an aeroplane ready for a specific type of operation including the required fuel and crew, but excluding traffic load.",
-          "the total mass of the aeroplane ready for a specific type of operation including crew, navigation instruments and engine cowling."
+          "the mass of the aeroplane plus standard items such as unusable fuel and other unusable liquids, lubricating oil in engine and auxiliary units, fire extinguishers, pyrotechnics, emergency oxygen equipment, supplementary electronic equipment.",
+          "the total mass of the aeroplane ready for a specific type of operation excluding unusable fuel and traffic load.",
+          "The mass includes items such as crew and crew baggage."
         ],
         "answer": 0
       },
@@ -7263,22 +7261,21 @@ export const subjects = [
       {
         "id": "perf_16",
         "number": 16,
-        "question": "The center of gravity (CG) defines... the point through which the force of gravity is said to act on a mass.",
+        "question": "The center of gravity (CG) defines...",
         "options": [
+          "the point through which the force of gravity is said to act on a mass.",
           "the point on the longitudinal axis or its extension from which the centers of gravity of all masses are referenced.",
-          "the product of mass and balance arm.",
-          "the distance from the datum to the position of a mass."
+          "the product of mass and balance arm."
         ],
         "answer": 0
       },
       {
         "id": "perf_17",
         "number": 17,
-        "question": "The term \"datum\" with regard to a mass and balance calculation defines... the point on the longitudinal axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced. the point on the lateral axis of an aeroplane or its extension from which the centers of gravity of all",
+        "question": "The term \"datum\" with regard to a mass and balance calculation defines...",
         "options": [
-          "masses are referenced.",
-          "the point on the vertical axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced.",
-          "the distance from the reference plane to the center of gravity of an aircraft."
+          "the point on the longitudinal axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced.",
+          "the point on the lateral axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced."
         ],
         "answer": 0
       },
@@ -7297,13 +7294,14 @@ export const subjects = [
       {
         "id": "perf_19",
         "number": 19,
-        "question": "The term \"balance arm\" in the context of a mass and balance calculation defines the... distance from the datum to the center of gravity of a mass.",
+        "question": "The term \"balance arm\" in the context of a mass and balance calculation defines the...",
         "options": [
           "point on the longitudinal axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced.",
           "point through which the force of gravity is said to act on a mass.",
-          "distance of a mass from the center of gravity."
+          "distance of a mass from the center of gravity.",
+          "distance from the datum to the center of gravity of a mass."
         ],
-        "answer": 0
+        "answer": 3
       },
       {
         "id": "perf_20",
@@ -7367,9 +7365,9 @@ export const subjects = [
       {
         "id": "perf_25",
         "number": 25,
-        "question": "For the purpose of a flighLimitations relating to aeroplane certification in the normal category are... an aeroplane maximum weight of below 5000 kg restricted to no aerobatics and bank angles limited to 45\u00b0. an aeroplane maximum weight of below 2300 kg restricted to limited aerobatics and bank angles",
+        "question": "Limitations relating to aeroplane certification in the normal category are...",
         "options": [
-          "limited to 45\u00b0.",
+          "an aeroplane maximum weight of below 5000 kg restricted to no aerobatics and bank angles limited to 45\u00b0.",
           "an aeroplane maximum weight of below 5700 kg restricted to aerobatics and bank angles of 30\u00b0.",
           "an aeroplane maximum weight of below 5700 kg restricted to no spinning or aerobatics and bank angles limited to 60\u00b0."
         ],
@@ -7414,10 +7412,10 @@ export const subjects = [
       {
         "id": "perf_29",
         "number": 29,
-        "question": "How do high temperatures affect aircraft performance? High temperatures result in low air density, thus raising density altitude and decreasing aircraft performance High temperatures result in high air density, thus lowering density altitude and increasing aircraft performance",
+        "question": "How do high temperatures affect aircraft performance?",
         "options": [
-          "High temperatures result in low air density, thus lowering density altitude and decreasing aircraft performance",
-          "High temperatures result in high air density, thus raising density altitude and increasing aircraft performans"
+          "High temperatures result in low air density, thus raising density altitude and decreasing aircraft performance",
+          "High temperatures result in high air density, thus lowering density altitude and increasing aircraft performance"
         ],
         "answer": 0
       },
@@ -7436,14 +7434,15 @@ export const subjects = [
       {
         "id": "perf_31",
         "number": 31,
-        "question": "How does wind affect the take-off performance? Tailwind reduces the relative wind on the airfoil. The take-off distance will increase",
+        "question": "How does wind affect the take-off performance?",
         "options": [
           "Headwind causes an increased airflow around the wing. The take-off distance will increase",
           "Headwind imposes an increased drag on the aircraft. The take-off distance will increase",
-          "Tailwind aids the aircraft in overcoming the initial drag at the commencement of the take-off roll.",
-          "The take-off distance will decrease"
+          "Tailwind aids the aircraft in overcoming the initial drag at the commencement of the take-off roll. The take-off distance will decrease",
+          "The take-off distance will decrease",
+          "Tailwind reduces the relative wind on the airfoil. The take-off distance will increase"
         ],
-        "answer": 0
+        "answer": 4
       },
       {
         "id": "perf_32",
@@ -7460,7 +7459,7 @@ export const subjects = [
       {
         "id": "perf_33",
         "number": 33,
-        "question": "How is the take-off distance influenced on a grass runway in comparison to a paved surface? The required distance for take-off will be increased. The braking performance on grass will not be as good as it would be on a paved surface The required distance for take-off will be increased. The braking performance on grass will be better than on a paved surface",
+        "question": "How is the take-off distance influenced on a grass runway in comparison to a paved surface?",
         "options": [
           "The required distance for take-off will be increased. The braking performance on grass will not be as good as it would be on a paved surface",
           "The required distance for take-off will be increased. The braking performance on grass will be better than on a paved surface"
@@ -7494,12 +7493,12 @@ export const subjects = [
       {
         "id": "perf_36",
         "number": 36,
-        "question": "Regardless of the runway surface... a down sloping runway will increase the take-off run required but decrease the landing distance required. an up sloping runway will increase the take-off run required but decrease the landing distance required.",
+        "question": "Regardless of the runway surface...",
         "options": [
-          "an up sloping runway will decrease the take-off run required and decrease the landing distance required.",
-          "a down sloping runway will decrease the take-off run required and decrease the landing distance required."
+          "a down sloping runway will increase the take-off run required but decrease the landing distance required.",
+          "an up sloping runway will increase the take-off run required but decrease the landing distance required."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "id": "perf_37",
@@ -7660,21 +7659,21 @@ export const subjects = [
       {
         "id": "perf_50",
         "number": 50,
-        "question": "If the approach and landing speeds are increased above those recommended in the Pilot's Operating Handbook... the landing distance will be unaffected on a dry runway.",
+        "question": "If the approach and landing speeds are increased above those recommended in the Pilot's Operating Handbook...",
         "options": [
           "the landing distance will be reduced due to increased braking action.",
           "the landing distance will be increased.",
           "the landing distance will be unaffected as long as the glide path angle is reduced to compensate for the higher approach speed."
         ],
-        "answer": 2
+        "answer": 1
       },
       {
         "id": "perf_51",
         "number": 51,
-        "question": "The use of flaps will... increase the stalling speed.",
+        "question": "The use of flaps will...",
         "options": [
+          "increase the stalling speed.",
           "have no effect on the stalling speed.",
-          "cause fluctuation of stalling speed at the stalling angle of attack due to break up of laminar flow over the trailing edge.",
           "decrease the stalling speed."
         ],
         "answer": 2
@@ -7730,12 +7729,13 @@ export const subjects = [
       {
         "id": "perf_56",
         "number": 56,
-        "question": "When carburettor heat is applied on the ground or in the air, the engine speed drops... because the airflow in the carburettor is mechanically inhibited. because the fuel flow is increased to compensate for the weaker mixture due to warmer, denser air.",
+        "question": "When carburettor heat is applied on the ground or in the air, the engine speed drops...",
         "options": [
-          "because there is a power loss resulting from warmer, less dense air entering the combustion chamber.",
-          "because the fuel flow is reduced to compensate for the warmer, denser air entering the combustion chamber."
+          "because the airflow in the carburettor is mechanically inhibited.",
+          "because the fuel flow is increased to compensate for the weaker mixture due to warmer, denser air.",
+          "because there is a power loss resulting from warmer, less dense air entering the combustion chamber."
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "id": "perf_57",
@@ -7812,7 +7812,7 @@ export const subjects = [
       {
         "id": "perf_63",
         "number": 63,
-        "question": "Flight for maximum range in a piston engined aircraft is achieved by flying... at the lowest density altitude that is safely possible.",
+        "question": "Flight for maximum range in a piston engined aircraft is achieved by flying...",
         "options": [
           "at just above the minimum drag speed.",
           "just below that speed which provides the maximum power / airspeed ratio.",
@@ -7823,9 +7823,9 @@ export const subjects = [
       {
         "id": "perf_64",
         "number": 64,
-        "question": "The term \"maximum elevation figure\" (MEF) is defined as... the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude plus a safety margin, rounded to the next higher 100 ft. the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude plus",
+        "question": "The term \"maximum elevation figure\" (MEF) is defined as...",
         "options": [
-          "a safety margin of 1000 ft (305 m), rounded to the next higher 100 ft.",
+          "the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude plus a safety margin, rounded to the next higher 100 ft.",
           "the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude.",
           "the highest elevation within an area covering 1 degree of latitude and 1 degree of longitude plus a safety margin, rounded to the next lower 100 ft."
         ],
@@ -7894,7 +7894,7 @@ export const subjects = [
       {
         "id": "perf_72",
         "number": 72,
-        "question": "2 Ib. 120.5 Ib. 145.9 Ib. 71. Given the following data: Fuel for start-up, taxi, run-up and take-off: 2 Imp gal Planned flight time: 1 h 30 min Planned diversion time: 20 min Fuel consumption rate: 10 Imp gal/h Reserve required at the alternate aerodrome: 7 Imp gal 72. What is the minimum fuel required before start up?",
+        "question": "Given the following data: Fuel for start-up, taxi, run-up and take-off: 2 Imp gal Planned flight time: 1 h 30 min Planned diversion time: 20 min Fuel consumption rate: 10 Imp gal/h Reserve required at the alternate aerodrome: 7 Imp gal. What is the minimum fuel required before start up?",
         "options": [
           "24 Imp gals",
           "28 Imp gals",
@@ -7964,7 +7964,7 @@ export const subjects = [
       {
         "id": "agk_1",
         "number": 1,
-        "question": "An aircraft that has been overstressed... must be inspected by a qualified engineer before the next flight. must be inspected by the pilot in command and if no defect is found, he / she will not be required to",
+        "question": "An aircraft that has been overstressed...",
         "options": [
           "make an appropriate entry in the aircraft technical log.",
           "must be inspected by at least two pilots licenced on the type, one of whom must be the pilot in command.",
@@ -7975,7 +7975,7 @@ export const subjects = [
       {
         "id": "agk_2",
         "number": 2,
-        "question": "Aircraft maintenance carried out that does not concur with the maintenance schedule quoted in the certificate of airworthiness (C of A), will... not affect the validity of the C of A. require a C of A renewal after the required maintenance has been completed and before the",
+        "question": "Aircraft maintenance carried out that does not concur with the maintenance schedule quoted in the certificate of airworthiness (C of A), will...",
         "options": [
           "aeroplane is flown again.",
           "invalidate the C of A until the required maintenance is completed.",
@@ -8178,7 +8178,7 @@ export const subjects = [
       {
         "id": "agk_19",
         "number": 19,
-        "question": "A pilot enters a mountainous area at a high cruising speed and expects severe turbulence. What is his proper reaction? No need for any special actions, because in this case an aircraft has to be loaded up to only 70% of its",
+        "question": "A pilot enters a mountainous area at a high cruising speed and expects severe turbulence. What is his proper reaction?",
         "options": [
           "maximum weight",
           "Airspeed must be reduced to the maneuvering speed according to the flight manual",
@@ -8322,12 +8322,12 @@ export const subjects = [
       {
         "id": "agk_31",
         "number": 31,
-        "question": "What is the purpose of primary flight controls? Primary flight controls are used by the pilot for the immediate control of pitch, roll and yaw of an Aircraft Primary flight controls are used by the pilot to control all movements of an aircraft during all phases of flight",
+        "question": "What is the purpose of primary flight controls?",
         "options": [
-          "Primary flight controls improve the aircraft's handling characteristics and relieve the pilot from excessive control forces",
-          "Primary flight controls are needed to control the aircraft's horizontal and vertical flight path, its forward speed, and overall performance"
+          "Primary flight controls are used by the pilot for the immediate control of pitch, roll and yaw of an aircraft",
+          "Primary flight controls are used by the pilot to control all movements of an aircraft during all phases of flight"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "agk_32",
@@ -8356,13 +8356,14 @@ export const subjects = [
       {
         "id": "agk_34",
         "number": 34,
-        "question": "What is the purpose of the secondary flight controls? To improve the performance characteristics of an aircraft and relieve the pilot of excessive control forces",
+        "question": "What is the purpose of the secondary flight controls?",
         "options": [
           "To enable the pilot to control the aircraft's movements about its three axes",
           "To improve the turn characteristics of an aircraft in the low speed regime during approach and landing",
-          "To constitute a backup system for the primary flight controls"
+          "To constitute a backup system for the primary flight controls",
+          "To improve the performance characteristics of an aircraft and relieve the pilot of excessive control forces"
         ],
-        "answer": 0
+        "answer": 3
       },
       {
         "id": "agk_35",
@@ -9096,7 +9097,7 @@ export const subjects = [
       {
         "id": "agk_96",
         "number": 96,
-        "question": "If the appropriate manual or checklist is not available to deal with an engine fire during flight, the pilot should... make a mayday call, slip the aircraft to keep the fumes away from the cabin, then attempt to",
+        "question": "If the appropriate manual or checklist is not available to deal with an engine fire during flight, the pilot should...",
         "options": [
           "extinguish the fire.",
           "close the throttle, turn the fuel off and close the cabin air intake.",
@@ -9672,10 +9673,10 @@ export const subjects = [
       {
         "id": "agk_144",
         "number": 144,
-        "question": "Which of the following states the working principle of an airspeed indicator? Total air pressure is measured and compared against static air pressure. Static air pressure is measured and compared against a vacuum.",
+        "question": "Which of the following states the working principle of an airspeed indicator?",
         "options": [
-          "Dynamic air pressure is measured by the Pitot tube and converted into a speed indication by the airspeed indicator",
-          "Total air pressure is measured by the static ports and converted into a speed indication by the airspeed indicator"
+          "Total air pressure is measured and compared against static air pressure.",
+          "Static air pressure is measured and compared against a vacuum."
         ],
         "answer": 0
       },
@@ -9970,7 +9971,7 @@ export const subjects = [
       {
         "id": "agk_169",
         "number": 169,
-        "question": "The artificial horizon... will not change its position and the indication accuracy remains constant.",
+        "question": "The artificial horizon...",
         "options": [
           "is built as pendulum so that it is sensitive to tilting motion and can indicate this without delay.",
           "is fully gimballed; indication errors may occur during longer or repeated turns.",
@@ -10159,12 +10160,12 @@ export const subjects = [
       {
         "id": "nav_6",
         "number": 6,
-        "question": "Which statement is correct with regard to the polar axis of the Earth? The polar axis of the Earth crosses the magnetic south pole and the magnetic north pole and is perpendicular to the plane of the equator The polar axis of the Earth crosses the geographic South Pole and the geographic North Pole and is at an angle of 23.5\u00b0 to the plane of the equator",
+        "question": "Which statement is correct with regard to the polar axis of the Earth?",
         "options": [
           "The polar axis of the Earth crosses the geographic South Pole and the geographic North Pole and is perpendicular to the plane of the equator",
           "The polar axis of the Earth crosses the magnetic south pole and the magnetic north pole and is at an angle of 66.5\u00b0 to the plane of the equator"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "nav_7",
@@ -10373,7 +10374,7 @@ export const subjects = [
       {
         "id": "nav_24",
         "number": 24,
-        "question": "The term 'sunrise' is defined as... the point in time when an observer for the first time on the particular day is able to see half of the sun disk. the point in time when an observer for the first time on the particular day is able to see the full sun disk.",
+        "question": "The term 'sunrise' is defined as...",
         "options": [
           "the point in time when an observer for the first time on the particular day is able to see the centre of the sun disk.",
           "the point in time when an observer for the first time on the particular day is able to see the upper edge of the sun disk."
@@ -10455,13 +10456,14 @@ export const subjects = [
       {
         "id": "nav_31",
         "number": 31,
-        "question": "The term 'True Course' (TC) is defined as... the measurement for any direction on Earth in reference to true north (TN), defined as the angle between true north and that direction. \"",
+        "question": "The term 'True Course' (TC) is defined as...",
         "options": [
           "the direction from an arbitrary point on Earth to the geographic North Pole.",
           "the direction from an arbitrary point on Earth to the magnetic north pole.",
-          "the measurement for any direction on Earth in reference to magnetic north (MN), defined as the angle between magnetic north and that direction."
+          "the measurement for any direction on Earth in reference to magnetic north (MN), defined as the angle between magnetic north and that direction.",
+          "the measurement for any direction on Earth in reference to true north (TN), defined as the angle between true north and that direction."
         ],
-        "answer": 0
+        "answer": 3
       },
       {
         "id": "nav_32",
@@ -10586,24 +10588,23 @@ export const subjects = [
       {
         "id": "nav_42",
         "number": 42,
-        "question": "Which are the properties of a Mercator chart? The chart is an equal-area projection, great circles are depicted as straight lines, and the chart is true to scale",
+        "question": "Which are the properties of a Mercator chart?",
         "options": [
           "The chart convergency is 90\u00b0, the chart is an equal-area projection, and rhumb lines are depicted as straight lines",
           "The chart is true to scale, the chart is conformal, and great circles are depicted as straight lines",
           "The chart convergency is 0\u00b0, the chart is conformal, and rhumb lines are depicted as straight lines"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
         "id": "nav_43",
         "number": 43,
-        "question": "Which are the properties of a conformal projection chart? Great circles must be straight lines, the angle between longitudes and latitudes on the chart is always 90\u00b0 and the scale on an arbitrary point must be independent of direction The scale on an arbitrary point must be independent of direction and great circles must be straight lines out of the centre of the chart",
+        "question": "Which are the properties of a conformal projection chart?",
         "options": [
-          "The scale on an arbitrary point must be independent of direction and the angle between longitudes",
-          "and latitudes on the chart is not necessarily equal to 90\u00b0",
+          "The scale on an arbitrary point must be independent of direction and the angle between longitudes and latitudes on the chart is not necessarily equal to 90\u00b0",
           "The scale on an arbitrary point must be independent of direction and the angle between longitudes and latitudes on the chart is always 90\u00b0"
         ],
-        "answer": 2
+        "answer": 1
       },
       {
         "id": "nav_44",
@@ -11160,9 +11161,9 @@ export const subjects = [
       {
         "id": "nav_90",
         "number": 90,
-        "question": "Which is a difference between primary and secondary radar? The pulses of a primary radar are variably amplitude-modulated, the pulses of a secondary radar are statically pulse-modulated. The pulses of a primary radar are variably pulse-modulated, the pulses of a secondary radar are",
+        "question": "Which is a difference between primary and secondary radar?",
         "options": [
-          "statically amplitude-modulated.",
+          "The pulses of a primary radar are variable pulse-modulated, the pulses of a secondary radar are statically amplitude-modulated",
           "The pulses of a primary radar are reflected by the aircraft's surface, the pulses of a secondary radar system are answered by a transponder",
           "The primary radar is displayed on a computer screen, the secondary radar on a radar strip"
         ],
@@ -11375,9 +11376,9 @@ export const subjects = [
       {
         "id": "nav_108",
         "number": 108,
-        "question": "The adjustment of the directional gyro is carried out correctly when... adjusted prior to starting the engine, since the adjustment cannot be made exactly due to the",
+        "question": "The adjustment of the directional gyro is carried out correctly when...",
         "options": [
-          "vibrations of the running engine.",
+          "adjusted prior to starting the engine, since the adjustment cannot be made exactly due to the vibrations of the running engine.",
           "adjusted prior to take-off in take-off position, using the known magnetic direction of the runway.",
           "it is adjusted according to the variation in the Aeronautical Information Publication (AIP).",
           "adjusted shortly after take-off, using the magnetic compass."
@@ -11963,7 +11964,7 @@ export const subjects = [
       {
         "id": "nav_160",
         "number": 160,
-        "question": "225. 340. 330. 158. The coverage of a VHF omnidirectional radio range (VOR) is... unlimited in higher altitudes. the same at all altitudes. limited due to the quasi-optical radio wave propagation in the VHF band. dependent only upon the transmission power of the ground station. 159. The CDI needle is deflecting shortly before the VOR station is overflown. The reason is that the... bearing is deflected through the inclination. aircraft is getting closer to the cone of silence. Coriolis effect gets stronger. radio beam on the bottom of the fuselage interfers. 160. The distance measured by a DME is called...",
+        "question": "The distance measured by a DME is called...",
         "options": [
           "slant range.",
           "dia range.",
@@ -11987,9 +11988,9 @@ export const subjects = [
       {
         "id": "nav_162",
         "number": 162,
-        "question": "The instruction \"squawk ident\" means... the IDENT button has to be pressed until the ground unit issues the clearance to stop pressing the",
+        "question": "The instruction \"squawk ident\" means...",
         "options": [
-          "button.",
+          "the IDENT button has to be pressed until the ground unit issues the clearance to stop pressing the button.",
           "the IDENT switch should be turned to the \"ON\" position for at least 12 seconds.",
           "the aircraft call sign has to be reported.",
           "the IDENT button has to be pressed once."

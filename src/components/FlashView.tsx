@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import {
   X, CheckCircle2, XCircle,
-  Sparkles, Hash, ChevronDown, ChevronUp, Home, RotateCcw
+  Sparkles, Hash, ChevronDown, ChevronUp, Home
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import type { Question, Subject } from '@/types';
@@ -172,8 +172,8 @@ export function FlashView({ subject, questions, onExit, onFinish }: FlashViewPro
               Subjects
             </Button>
             <Button className="flex-1 gap-2" onClick={handleFinish}>
-              <RotateCcw className="w-4 h-4" />
-              Study Again
+              <Home className="w-4 h-4" />
+              Save & Finish
             </Button>
           </div>
         </div>
