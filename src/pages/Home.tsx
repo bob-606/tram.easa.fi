@@ -9,6 +9,7 @@ import { ThemeSelector } from '@/components/ThemeSelector';
 import { subjects } from '@/data';
 import { useProgress } from '@/hooks/useProgress';
 import { SubjectCard } from '@/components/SubjectCard';
+import { APP_VERSION, DATA_UPDATED } from '@/version';
 import { QuizView, type QuizMode } from '@/components/QuizView';
 
 function shuffleOptions<T extends { options: string[]; answer: number }>(q: T): T {
@@ -391,7 +392,8 @@ export default function Home() {
         💙💙💙💙💙<br />
         🖤🖤🖤🖤🖤<br />
         🤍🤍🤍🤍🤍<br />
-        in Ida-Virumaa 🇪🇺
+        in Ida-Virumaa 🇪🇺<br />
+        <span className="opacity-70">v{APP_VERSION} · updated {DATA_UPDATED}</span>
       </div>
 
       <AIChat isOpen={showAIChat} onClose={() => setShowAIChat(false)} />
