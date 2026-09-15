@@ -24,7 +24,7 @@
     "detailed": "EASA is an EU agency. Its regulations (Part-FCL, Part-MED, Part-21, etc.) are adopted as European Commission regulations and are directly binding in all EU member states without national transposition."
   },
   "airlaw_7": {
-    "brief": "EUROCONTROL's Integrated Initial Flight Plan Processing System (IFPS) handles flight plan acceptance and transmission across Europe.",
+    "brief": "EUROCONTROL provides ATC in the upper airspace over Northern Europe and central flow management (ATFM) across Europe.",
     "detailed": "EUROCONTROL's objectives include: air traffic control in upper airspace over many Northern European states, and Air Traffic Flow Management (ATFM) via the Central Flow Management Unit (CFMU) in Brussels, which processes all IFR flight plans in Europe."
   },
   "airlaw_8": {
@@ -56,8 +56,8 @@
     "detailed": "EASA Part-MED: For Class 2 medical certificates, the validity is 60 months for ages 17-39, 24 months for ages 40-59, and 12 months from age 60 onwards."
   },
   "airlaw_15": {
-    "brief": "If recency requirements are not met, the ATO may renew the rating after a training flight with an instructor.",
-    "detailed": "Under Part-FCL.740, SEP rating revalidation: if the required 12 hours flight time in 12 months (including 6 hours PIC, 12 take-offs/landings, and 1 hour training flight) are not met, the rating can only be renewed through a proficiency check with an examiner at an ATO."
+    "brief": "If SEP recency requirements are not met, renewal requires a proficiency check with an examiner.",
+    "detailed": "Under Part-FCL.740, SEP revalidation requires 12 hours in 12 months. If not met, the rating must be renewed by a proficiency check with an examiner (with refresher training as determined by the ATO)."
   },
   "airlaw_16": {
     "brief": "A PPL holder may act as PIC on non-commercial flights and receive compensation only as an instructor or for flights with MTOW ≤2000kg.",
@@ -196,7 +196,7 @@
     "detailed": "SERA.8025 prescribes position report format: Aircraft identification, Position, Time, Flight Level/Altitude, Next position and ETA, followed by name of ATS unit."
   },
   "airlaw_50": {
-    "brief": "AIREP = Aircraft Report. The AIP General (GEN) section contains administrative and procedural information.",
+    "brief": "The AIP General (GEN) section contains administrative information such as access rules, pilot requirements and licence specimens.",
     "detailed": "AIREP (Aircraft Report) is a meteorological report from aircraft. The AIP GEN section contains: national regulations, ATS system, met services, SAR, fees, and charges."
   },
   "airlaw_51": {
@@ -1232,7 +1232,7 @@
     "detailed": "The Bora is a cold, gusty, downslope wind (katabatic) that flows from the Dinaric Alps onto the Adriatic coast. It forms when cold continental air spills over the mountains. It can exceed 100 kt and is dangerous for aviation, producing severe turbulence and wind shear."
   },
   "met_132": {
-    "brief": "Moist air flowing perpendicular to a mountain range causes cloud formation in valleys on both sides, with Foehn effects on the lee side.",
+    "brief": "Moist air forced up a mountain range causes cloud and precipitation on the windward side with Foehn clearance and good visibility on the leeward side.",
     "detailed": "When strong moist airflow hits a mountain range perpendicularly, it is forced to rise, causing clouds and precipitation on the windward side. The air then descends on the lee side, warming adiabatically (Foehn effect), creating clouds down the valleys on the lee side as well."
   },
   "met_133": {
@@ -1432,8 +1432,8 @@
     "detailed": "Cloud heights in METAR are given in feet above aerodrome level. 'BKN030' means a broken layer at 3000 ft AAL."
   },
   "met_182": {
-    "brief": "The METAR reports temperature 24°C, dew point 12°C, and QNH 1015 hPa.",
-    "detailed": "METAR LEPA ... 24/12 means temperature 24°C and dew point 12°C (spread 12°C). QNH 1015 hPa."
+    "brief": "The METAR reports temperature 15 °C, dew point 12 °C, and QNH 1015 hPa.",
+    "detailed": "METAR LEPA ... 15/12 means temperature 15 °C and dew point 12 °C. SCT005 = 3-4/8 at 500 ft, BKN010 = 5-7/8 at 1000 ft, RA = rain, QNH 1015 hPa."
   },
   "met_183": {
     "brief": "'BKN' means cloud cover of 5/8 to 7/8 (broken).",
@@ -2152,7 +2152,7 @@
     "detailed": "Without rudder, turns must be coordinated using aileron and elevator only. Use shallow bank angles to avoid adverse yaw. Land at the nearest suitable airfield."
   },
   "ops_20": {
-    "brief": "To minimise noise, use normal approach with normal power setting, configuration prior to glide path, and high approach.",
+    "brief": "To minimise noise, fly a high approach with minimum power, late descent and late configuration along established routes.",
     "detailed": "Noise abatement procedures: use the lowest practical power setting, keep the aircraft high until necessary to descend, reduce power early, and avoid low-level manoeuvring over built-up areas."
   },
   "ops_21": {
@@ -2452,7 +2452,7 @@
     "detailed": "Original moment: 151200 lb·in. Added fuel: 310 lb × 90 in = 27900 lb·in. New total: 179100 lb·in."
   },
   "perf_25": {
-    "brief": "For normal category (CS-23), aeroplane maximum weight is below 5000 kg, bank angles limited to 60°.",
+    "brief": "For normal category (CS-23), aeroplane maximum weight is below 5700 kg, no aerobatics/spinning, bank angles limited to 60°.",
     "detailed": "Normal category: MTOM < 5670 kg. Load factor limits of +3.8g/-1.52g limit bank angle to about 60° in level flight."
   },
   "perf_26": {
@@ -3384,8 +3384,8 @@
     "detailed": "The axis passes through the true geographic poles, which are different from the magnetic poles. It emerges at 90°N and 90°S."
   },
   "nav_6": {
-    "brief": "The polar axis passes through the magnetic south pole and the magnetic north pole (magnetic poles are near but not at the geographic poles).",
-    "detailed": "The magnetic poles are offset from the geographic poles. Magnetic north is currently in the Canadian Arctic; magnetic south is near the Antarctic coast."
+    "brief": "The polar axis passes through the geographic poles and is perpendicular to the plane of the equator.",
+    "detailed": "The Earth's polar (rotation) axis passes through the geographic North and South Poles and is perpendicular to the equatorial plane. The magnetic poles are offset from the geographic poles."
   },
   "nav_7": {
     "brief": "The Earth's shape is best described for navigation as an ellipsoid (oblate spheroid).",
@@ -3528,7 +3528,7 @@
     "detailed": "Deviation is caused by magnetic materials and electrical currents within the aircraft. It must be checked and recorded on a compass correction card."
   },
   "nav_42": {
-    "brief": "Mercator chart: conformal, true to scale, great circles appear as straight lines.",
+    "brief": "Mercator chart: conformal, convergency 0°, rhumb lines appear as straight lines.",
     "detailed": "Mercator is a cylindrical projection. It is conformal (angles preserved). Rhumb lines are straight, useful for plotting constant heading routes."
   },
   "nav_43": {

@@ -84,7 +84,9 @@ export const subjects = [
         "question": "Some of the objectives of EUROCONTROL are...",
         "options": [
           "air traffic control (ATC) over many Northern European countries in the upper airspace and air traffic flow management (ATFM).",
-          "air traffic control (ATC) over Europe in the lower airspace and air traffic management for Europe provided by the central flow management unit (CFMU)."
+          "air traffic control (ATC) over Europe in the lower airspace and air traffic management for Europe provided by the central flow management unit (CFMU).",
+          "the issue of pilot licences and the certification of aircraft in all member states.",
+          "the provision of airport handling services and passenger control in all member states."
         ],
         "answer": 0
       },
@@ -151,12 +153,12 @@ export const subjects = [
       {
         "id": "airlaw_13",
         "number": 13,
-        "question": "What are the minimum requirements among others to acquire a rating for VFR night flights? At least 10 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings At least 5 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings",
+        "question": "What are the minimum requirements among others to acquire a rating for VFR night flights?",
         "options": [
-          "At least 5 additional flight hours at night, four of them with a flight instructor with at least 1 hour",
-          "cross-country flight plus 5 solo take-offs and full-stop landings",
-          "At least 5 additional flight hours at night, three of them with a flight instructor with at least 1 hour",
-          "cross-country flight plus 10 solo take-offs and full-stop landings"
+          "At least 10 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings",
+          "At least 5 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings",
+          "At least 5 additional flight hours at night, four of them with a flight instructor with at least 1 hour cross-country flight plus 5 solo take-offs and full-stop landings",
+          "At least 5 additional flight hours at night, three of them with a flight instructor with at least 1 hour cross-country flight plus 10 solo take-offs and full-stop landings"
         ],
         "answer": 1
       },
@@ -175,13 +177,14 @@ export const subjects = [
       {
         "id": "airlaw_15",
         "number": 15,
-        "question": "In which way is a SEP (land) rating renewed if you do not meet the required flight time? A proficiency check with an examiner",
+        "question": "In which way is a SEP (land) rating renewed if you do not meet the required flight time?",
         "options": [
+          "A proficiency check with an examiner",
           "The required flight experience has to be accumulated under supervision of a flight instructor",
           "The ATO can renew the rating after a training flight with a flight instructor",
           "According to the flight experience there have to be several training flights under supervision of an ATO"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "airlaw_16",
@@ -200,7 +203,7 @@ export const subjects = [
         "number": 17,
         "question": "What is the meaning of the abbreviation \"BCMT\"?",
         "options": [
-          "The center of the sun is 6\u00b0 below the horizon and dawn is imminent",
+          "The center of the sun is 6° below the horizon and dawn is imminent",
           "Before entering airspace C: Transponder Mandatory",
           "International morse code for: on high seas",
           "It is mandatory to set the transponder to mode C or S with the squawk 7000"
@@ -261,7 +264,9 @@ export const subjects = [
         "question": "What is the meaning of the abbreviation \"IMC\"?",
         "options": [
           "Instrument meteorological conditions",
-          "Instrument flight rules"
+          "Instrument flight rules",
+          "Instrument flight conditions",
+          "In-flight meteorological briefing"
         ],
         "answer": 0
       },
@@ -280,7 +285,7 @@ export const subjects = [
       {
         "id": "airlaw_24",
         "number": 24,
-        "question": "Which one has to divert?\"",
+        "question": "Which one has to divert?",
         "options": [
           "The aircraft which flies from right to left has the right of priority",
           "The aircraft which flies from left to right has the right of priority",
@@ -292,9 +297,10 @@ export const subjects = [
       {
         "id": "airlaw_25",
         "number": 25,
-        "question": "What is the difference between \"crossing\" and \"passing\" regarding two aeroplane? When \"crossing\", the angle between the two aeroplanes is more than 70\u00b0, when \"passing\", it is smaller",
+        "question": "What is the difference between \"crossing\" and \"passing\" regarding two aeroplane?",
         "options": [
-          "When \"\"crossing\"\", the angle between the two aeroplanes is less than 70\u00b0, when \"\"passing\"\", it is bigger",
+          "When \"crossing\", the angle between the two aeroplanes is more than 70°, when \"passing\", it is smaller",
+          "When \"crossing\", the angle between the two aeroplanes is less than 70°, when \"passing\", it is bigger",
           "If both pilots can see each other through a side window, it is called \"crossing\"",
           "If the difference in speed is more than 30 kt, it is called \"passing\""
         ],
@@ -305,8 +311,10 @@ export const subjects = [
         "number": 26,
         "question": "What is the minimum height above an industrial site working with inflammables and explosives?",
         "options": [
-          "1000 ft above the highest obstacle within a radius of 600 m from the aircraft 500 ft AGL",
-          "1000 ft above the highest obstacle within a radius of 300 m from the aircraft 2000 ft AGL"
+          "1000 ft above the highest obstacle within a radius of 600 m from the aircraft",
+          "500 ft AGL",
+          "1000 ft above the highest obstacle within a radius of 300 m from the aircraft",
+          "2000 ft AGL"
         ],
         "answer": 0
       },
@@ -325,7 +333,7 @@ export const subjects = [
       {
         "id": "airlaw_28",
         "number": 28,
-        "question": "Two engine-driven aircraft are flying on crossing courses at the same altitude.Which one has to divert?",
+        "question": "Two engine-driven aircraft are flying on crossing courses at the same altitude. Which one has to divert?",
         "options": [
           "Both have to divert to the right",
           "The heavier one has to climb",
@@ -363,8 +371,8 @@ export const subjects = [
         "number": 31,
         "question": "The term \"ceiling\" is defined as the...",
         "options": [
-          "altitude of the base of the lowest layer of clouds covering more than half of the sky below 20000",
-          "ft.height of the base of the lowest layer of clouds covering more than half of the sky below 20000 ft.",
+          "altitude of the base of the lowest layer of clouds covering more than half of the sky below 20000 ft.",
+          "height of the base of the lowest layer of clouds covering more than half of the sky below 20000 ft.",
           "height of the base of the lowest layer of clouds covering more than half of the sky below 10000 ft.",
           "height of the base of the highest layer of clouds covering more than half of the sky below 20000 ft."
         ],
@@ -591,8 +599,10 @@ export const subjects = [
         "number": 50,
         "question": "What information is provided in the general part (GEN) of the AIP?",
         "options": [
+          "Access restrictions for airfields, passenger controls, requirements for pilots, license samples and validity periods",
           "Table of content, classification of airfields with corresponding maps, approach charts, taxi charts, restricted and dangerous airspaces",
-          "Access restrictions for airfields, passenger controls, requirements for pilots, license samples and validity periods"
+          "En-route procedures, ATS airspace classification, holding, approach and departure procedures",
+          "Aerodrome operating minima, charts for approach, landing and taxiing"
         ],
         "answer": 0
       },
@@ -794,7 +804,7 @@ export const subjects = [
         "question": "How are two parallel runways designated?",
         "options": [
           "The left runway gets the suffix \"-1\", the right runway \"-2\"",
-          "The left runway gets the suffix \"\"L\"\", the right runway remains unchanged",
+          "The left runway gets the suffix \"L\", the right runway remains unchanged",
           "The left runway remains unchanged, the right runway designator is increased by 1",
           "The left runway gets the suffix \"L\", the right runway \"R\""
         ],
@@ -851,22 +861,24 @@ export const subjects = [
       {
         "id": "airlaw_72",
         "number": 72,
-        "question": "Under which conditions is \"ALERFA\" triggered? If an aircraft has not arrived within 30 minutes after its estimated time of arrival",
+        "question": "Under which conditions is \"ALERFA\" triggered?",
         "options": [
           "If it is suspected that the fuel of an aircraft could be completely consumed and no landing message has been received",
           "If it is suspected that an aircraft could be hijacked",
-          "If it is known that an aircraft will perform an emergency landing"
+          "If it is known that an aircraft will perform an emergency landing",
+          "If an aircraft has not arrived within 30 minutes after its estimated time of arrival"
         ],
         "answer": 0
       },
       {
         "id": "airlaw_73",
         "number": 73,
-        "question": "Under which conditions is \"INCERFA\" triggered? If there is uncertainty as to the safety of an aircraft and its occupants",
+        "question": "Under which conditions is \"INCERFA\" triggered?",
         "options": [
           "If it is suspected that the fuel of an aircraft could be completely consumed and no landing message has been received",
           "If an aircraft has not arrived within 30 minutes after its estimated time of arrival",
-          "If it is known that an aircraft will perform an emergency landing"
+          "If it is known that an aircraft will perform an emergency landing",
+          "If it is suspected that an aircraft could be hijacked"
         ],
         "answer": 1
       },
@@ -1207,11 +1219,12 @@ export const subjects = [
       {
         "id": "humanperf_24",
         "number": 24,
-        "question": "What is the meaning of the term \"time of useful consciousness\"? The amount of time an individual is able to perform flying duties efficiently in an environment of adequate oxygen supply",
+        "question": "What is the meaning of the term \"time of useful consciousness\"?",
         "options": [
           "The time between inadequate oxygen supply and total unconsciousness",
           "The amount of time an individual is able to perform flying duties efficiently in an environment of inadequate oxygen supply",
-          "The time from when breathable air is no longer available to the time of unconsciousness"
+          "The time from when breathable air is no longer available to the time of unconsciousness",
+          "The amount of time an individual is able to perform flying duties efficiently in an environment of adequate oxygen supply"
         ],
         "answer": 1
       },
@@ -1533,7 +1546,9 @@ export const subjects = [
         "question": "Which optical illusion might be caused by a runway with an upslope during the approach?",
         "options": [
           "The pilot has the feeling that the approach is too high and therefore descends below the regular glide slope",
-          "The pilot has the feeling that the approach is too slow and speeds up above the normal approach speed"
+          "The pilot has the feeling that the approach is too low and therefore climbs above the regular glide slope",
+          "The pilot has the feeling that the approach is too slow and speeds up above the normal approach speed",
+          "The pilot has the feeling that the runway is too short and therefore approaches with reduced speed"
         ],
         "answer": 0
       },
@@ -1651,7 +1666,9 @@ export const subjects = [
         "question": "What has to be taken into consideration when comparing medication which is only available on prescription with medication that is available over the counter?",
         "options": [
           "Generally both types of medication have to be handled in the same way",
-          "Medication which is only available on prescription is considered to have an impact on flight performance only if explicitly noted on the package insert"
+          "Medication available over the counter is always safe for flying and needs no consultation",
+          "Medication which is only available on prescription is considered to have an impact on flight performance only if explicitly noted on the package insert",
+          "Medication available over the counter never has side effects on concentration"
         ],
         "answer": 0
       },
@@ -1709,7 +1726,7 @@ export const subjects = [
         "question": "Which statement concerning prescription-free available drugs is correct?",
         "options": [
           "Before a pilot intends to fly after having taken pharmaceuticals, an aeromedical examiner should be consulted",
-          "Pharmaceuticals which can be purchased without prescription, do not have any side effects on the",
+          "Pharmaceuticals which can be purchased without prescription do not have any side effects on flight performance",
           "These pharmaceuticals are harmless because they increase the reasoning and the judgment of the pilot",
           "The side effects of those pharmaceuticals can be neglected by the pilot (refer to the package leaflet)"
         ],
@@ -1840,10 +1857,10 @@ export const subjects = [
         "number": 77,
         "question": "Which statement is correct with regard to the short-term memory?",
         "options": [
-          "It can store 5 (\u00b12) items for 1 to 2 minutes",
-          "It can store 10 (\u00b15) items for 30 to 60 seconds",
-          "It can store 3 (\u00b11) items for 5 to 10 seconds",
-          "It can store 7 (\u00b12) items for 10 to 20 seconds"
+          "It can store 5 (±2) items for 1 to 2 minutes",
+          "It can store 10 (±5) items for 30 to 60 seconds",
+          "It can store 3 (±1) items for 5 to 10 seconds",
+          "It can store 7 (±2) items for 10 to 20 seconds"
         ],
         "answer": 3
       },
@@ -2090,7 +2107,7 @@ export const subjects = [
       {
         "id": "humanperf_98",
         "number": 98,
-        "question": "Which of the following qualities are influenced by stress? 1. Attention 2. Concentration 3. Responsiveness 4. Memory\"",
+        "question": "Which of the following qualities are influenced by stress? 1. Attention 2. Concentration 3. Responsiveness 4. Memory",
         "options": [
           "1",
           "1, 2, 3",
@@ -2136,12 +2153,12 @@ export const subjects = [
       {
         "id": "met_1",
         "number": 1,
-        "question": "What is the gas composition of \"air\"? a. Oxygen 21 % Nitrogen 78 % Noble gases / carbon dioxide 1 %\" b. Nitrogen 21 % Oxygen 78 % Noble gases / carbon dioxide 1 %\" c. Oxygen 78 % Water vapour 21 %",
+        "question": "What is the gas composition of \"air\"?",
         "options": [
-          "Nitrogen 1 %\"",
-          "d. Oxygen 21 %",
-          "Water vapour 78 %",
-          "Noble gases / carbon dioxide 1 %\""
+          "Oxygen 21 %, Nitrogen 78 %, Noble gases / carbon dioxide 1 %",
+          "Nitrogen 21 %, Oxygen 78 %, Noble gases / carbon dioxide 1 %",
+          "Oxygen 78 %, Water vapour 21 %, Nitrogen 1 %",
+          "Oxygen 21 %, Water vapour 78 %, Noble gases / carbon dioxide 1 %"
         ],
         "answer": 0
       },
@@ -2186,10 +2203,10 @@ export const subjects = [
         "number": 5,
         "question": "At what rate does the temperature change with increasing height according to ISA (International Standard Atmosphere) within the troposphere?",
         "options": [
-          "Increases by 2\u00b0 C / 100 m",
-          "Decreases by 2\u00b0 C / 100 m",
-          "Decreases by 2\u00b0 C / 1000 ft",
-          "Increases by 2\u00b0 C / 1000 ft"
+          "Increases by 2° C / 100 m",
+          "Decreases by 2° C / 100 m",
+          "Decreases by 2° C / 1000 ft",
+          "Increases by 2° C / 1000 ft"
         ],
         "answer": 2
       },
@@ -2212,7 +2229,7 @@ export const subjects = [
         "options": [
           "Kelvin",
           "Degrees Fahrenheit",
-          "Degrees Centigrade (\u00b0 C)",
+          "Degrees Centigrade (° C)",
           "Gpdam"
         ],
         "answer": 2
@@ -2246,10 +2263,10 @@ export const subjects = [
         "number": 10,
         "question": "The mean temperature lapse rate with increasing height within the troposphere is...",
         "options": [
-          "2\u00b0 C / 100 m.",
-          "2\u00b0 C / 100 ft.",
-          "1\u00b0 C / 100 m.",
-          "0,65\u00b0 C / 100 m."
+          "2° C / 100 m.",
+          "2° C / 100 ft.",
+          "1° C / 100 m.",
+          "0,65° C / 100 m."
         ],
         "answer": 3
       },
@@ -2448,8 +2465,9 @@ export const subjects = [
       {
         "id": "met_27",
         "number": 27,
-        "question": "The term \"elevation\" is defined as... vertical distance of a horizontal level or a point on the earth's surface, measured from mean sea level (MSL).",
+        "question": "The term \"elevation\" is defined as...",
         "options": [
+          "vertical distance of a horizontal level or a point on the earth's surface, measured from mean sea level (MSL).",
           "the height of the highest obstacle in the approach sector of an airport over the aerodrome reference point (ARP).",
           "the reference point of a weather station.",
           "the height above an airport."
@@ -2559,7 +2577,7 @@ export const subjects = [
         "options": [
           "perpendicular to the isobars.",
           "perpendicular to the isohypses.",
-          "at an angle of 30\u00b0 to the isobars towards low pressure.",
+          "at an angle of 30° to the isobars towards low pressure.",
           "parallel to the isobars."
         ],
         "answer": 3
@@ -2917,10 +2935,10 @@ export const subjects = [
         "number": 66,
         "question": "The dry adiabatic lapse rate has a value of...",
         "options": [
-          "0,65\u00b0 C / 100 m.",
-          "1,0\u00b0 C / 100 m.",
-          "0,6\u00b0 C / 100 m.",
-          "2\u00b0 / 1000 ft."
+          "0,65° C / 100 m.",
+          "1,0° C / 100 m.",
+          "0,6° C / 100 m.",
+          "2° / 1000 ft."
         ],
         "answer": 1
       },
@@ -2939,10 +2957,11 @@ export const subjects = [
       {
         "id": "met_68",
         "number": 68,
-        "question": "Which answer defines the term \"adiabatic process\"? A change in volume and temperature of air during vertical movement with no thermal or particle interaction with its environmental area A change only in temperature of air during vertical movement with constant volume and no thermal",
+        "question": "Which answer defines the term \"adiabatic process\"?",
         "options": [
-          "interaction with its environmental area",
-          "A change in volume and temperature of air during horizontal movement with no thermal or particle particle interaction with its environmental area",
+          "A change in volume and temperature of air during vertical movement with no thermal or particle interaction with its environmental area",
+          "A change only in temperature of air during vertical movement with constant volume and no thermal interaction with its environmental area",
+          "A change in volume and temperature of air during horizontal movement with no thermal or particle interaction with its environmental area",
           "Every vertical movement of air where condensation takes place, thus producing heat"
         ],
         "answer": 0
@@ -3445,7 +3464,9 @@ export const subjects = [
         "question": "Which of the following characteristic weather is associated with a cold front?",
         "options": [
           "Broad nimbostratus clouds with long lasting precipitation, no noteworthy change in wind direction",
-          "Heavy cloud coverage with embedded Cb and strengthening showery precipitation (partially as thunderstorms), considerable change in wind direction to the right"
+          "Heavy cloud coverage with embedded Cb and strengthening showery precipitation (partially as thunderstorms), considerable change in wind direction to the right",
+          "Thin cirrus clouds with no precipitation and no change in wind direction",
+          "Widespread fog with calm wind and slowly improving visibility"
         ],
         "answer": 1
       },
@@ -3538,9 +3559,9 @@ export const subjects = [
         "number": 118,
         "question": "High pressure areas can be found predominantly...",
         "options": [
-          "in polar front areas at 60\u00b0 N/S.",
+          "in polar front areas at 60° N/S.",
           "in tropical areas, close to the equator.",
-          "in subtropical areas at 30\u00b0 N/S.",
+          "in subtropical areas at 30° N/S.",
           "overhead large ocean areas."
         ],
         "answer": 2
@@ -3704,8 +3725,9 @@ export const subjects = [
       {
         "id": "met_132",
         "number": 132,
-        "question": "Which effects can generally be expected when moist air with a strong wind flows perpendicular to a mountain range? Cloud formation on the windward side, good visibility on the leeward side",
+        "question": "Which effects can generally be expected when moist air with a strong wind flows perpendicular to a mountain range?",
         "options": [
+          "Cloud formation on the windward side, good visibility on the leeward side",
           "Clouds down the valleys on both sides of the mountain",
           "Lifting of the cloud coverage at the ridge, poor visibility on the leeward side",
           "Scattered cloud coverage on the windward side and clouds sinking down the valley on the leeward side"
@@ -3717,10 +3739,10 @@ export const subjects = [
         "number": 133,
         "question": "Which of the following conditions are most favourable for ice accretion?",
         "options": [
-          "Temperaturs below 0\u00b0 C, strong wind, sky clear of clouds",
-          "Temperatures between +10\u00b0 C and -30\u00b0 C, presence of hail (clouds)",
-          "Temperatures between -20\u00b0 C and -40\u00b0 C, presence of ice crystals (Ci clouds)",
-          "Temperatures between 0\u00b0 C and -12\u00b0 C, presence of supercooled water droplets (clouds)"
+          "Temperaturs below 0° C, strong wind, sky clear of clouds",
+          "Temperatures between +10° C and -30° C, presence of hail (clouds)",
+          "Temperatures between -20° C and -40° C, presence of ice crystals (Ci clouds)",
+          "Temperatures between 0° C and -12° C, presence of supercooled water droplets (clouds)"
         ],
         "answer": 3
       },
@@ -3729,10 +3751,10 @@ export const subjects = [
         "number": 134,
         "question": "What temperatures are most dangerous with respect to aircraft icing?",
         "options": [
-          "0\u00b0 to -12\u00b0 C",
-          "+20\u00b0 to -5\u00b0 C",
-          "+5\u00b0 to -10\u00b0 C",
-          "-20\u00b0 to -40\u00b0 C"
+          "0° to -12° C",
+          "+20° to -5° C",
+          "+5° to -10° C",
+          "-20° to -40° C"
         ],
         "answer": 0
       },
@@ -3787,11 +3809,12 @@ export const subjects = [
       {
         "id": "met_139",
         "number": 139,
-        "question": "How does rime ice form and how does it affect an airplane in flight? Accumulation of snow flakes on the upper side of an airplane causing the loss of lift during snowfall",
+        "question": "How does rime ice form and how does it affect an airplane in flight?",
         "options": [
           "Freezing water drops on the airplane with an influence on the control surfaces",
           "Rime ice on the air intake causing carburettor icing and engine failure",
-          "Accumulation of ice crystals on the leading edges of aerodynamically sensitive components leading to a loss of lift"
+          "Accumulation of ice crystals on the leading edges of aerodynamically sensitive components leading to a loss of lift",
+          "Accumulation of snow flakes on the upper side of an airplane causing the loss of lift during snowfall"
         ],
         "answer": 2
       },
@@ -3934,7 +3957,8 @@ export const subjects = [
         "options": [
           "None, since the airframe works just like a Faraday cage",
           "The altimeter indications will be false",
-          "The electrical system as well as the navigational equipment may be damaged Engine failure"
+          "The electrical system as well as the navigational equipment may be damaged",
+          "Engine failure"
         ],
         "answer": 2
       },
@@ -4208,7 +4232,9 @@ export const subjects = [
         "question": "Which answer explains the meaning of the letter \"M\" in a GAFOR weather classification?",
         "options": [
           "Ground visibility less than 3 km but at least 1.5 km and ceiling (5/8 or more) below 1000 ft but not below 500 ft above the reference height",
-          "Ground visibility less than 1.5 km and ceiling (4/8 or more) below 1000 ft but not below 500 ft above the reference height"
+          "Ground visibility less than 1.5 km and ceiling (4/8 or more) below 1000 ft but not below 500 ft above the reference height",
+          "Ground visibility 8 km or more and ceiling 2000 ft or more above the reference height",
+          "Ground visibility less than 1.5 km and ceiling below 500 ft above the reference height"
         ],
         "answer": 0
       },
@@ -4263,9 +4289,10 @@ export const subjects = [
       {
         "id": "met_179",
         "number": 179,
-        "question": "The TAF changing weather code \"BECMG 1214\" means... a change in the basic weather situation at 1214 UTC.",
+        "question": "The TAF changing weather code \"BECMG 1214\" means...",
         "options": [
           "a change in the basic weather situation which will start at 1200 UTC at the earliest and end at 1400 UTC at the latest.",
+          "a change in the basic weather situation at 1214 UTC.",
           "a temporary change in the basic weather situation between 1200 UTC and 1400 UTC.",
           "multiple changes in the basic weather situation starting at 1214 UTC."
         ],
@@ -4300,8 +4327,10 @@ export const subjects = [
         "number": 182,
         "question": "Which of the following answers is the correct translation in plain language of this METAR: LEPA 240620Z 24012KT 5000 RA SCT005 BKN010 15/12 Q1015=",
         "options": [
-          "Wind 240\u00b0 at 12 kt, visibility 5000 m, moderate rain, 3-4/8 in 500 ft, 5-7/8 in 1000 ft, temperature 15 \u00b0C, dew point 12 \u00b0C, QNH 1015 hPa",
-          "Wind 240\u00b0 at 12 kt, visibility 5 km, rain, 2-4/8 in 500 ft, 5-6/8 in 1000 ft, temperature 1,5 \u00b0C, dew point 1,2 \u00b0C, QNH 1015 hPa"
+          "Wind 240° at 12 kt, visibility 5000 m, moderate rain, 3-4/8 in 500 ft, 5-7/8 in 1000 ft, temperature 15 °C, dew point 12 °C, QNH 1015 hPa",
+          "Wind 240° at 12 kt, visibility 5 km, rain, 2-4/8 in 500 ft, 5-6/8 in 1000 ft, temperature 1.5 °C, dew point 1.2 °C, QNH 1015 hPa",
+          "Wind 240° at 12 kt, visibility 5000 m, light rain, 5-7/8 in 500 ft, 3-4/8 in 1000 ft, temperature 15 °C, dew point 12 °C, QNH 1015 hPa",
+          "Wind 120° at 24 kt, visibility 5000 m, moderate rain, 3-4/8 in 500 ft, 5-7/8 in 1000 ft, temperature 15 °C, dew point 12 °C, QNH 1015 hPa"
         ],
         "answer": 0
       },
@@ -4320,11 +4349,12 @@ export const subjects = [
       {
         "id": "met_184",
         "number": 184,
-        "question": "AIRMETs will be issued... whenever SIGMETs expire and the weather phenomena for which it was issued still exist.",
+        "question": "AIRMETs will be issued...",
         "options": [
           "whenever weather phenomena occur that have not been warned for in a GAFOR.",
           "whenever defined weather phenomena occur that have not been mentioned in SECN1 of the GAMET.",
-          "whenever significant weather phenomena, like severe icing or severe turbulence, occur."
+          "whenever significant weather phenomena, like severe icing or severe turbulence, occur.",
+          "whenever SIGMETs expire and the weather phenomena for which it was issued still exist."
         ],
         "answer": 2
       },
@@ -4428,7 +4458,9 @@ export const subjects = [
         "question": "In which situations should a pilot use blind transmissions?",
         "options": [
           "When a transmission containing important navigational or technical information is to be sent to several stations at the same time",
-          "When no radio communication can be established with the appropriate land station, but when evidence exists that transmissions are received at that ground unit"
+          "When no radio communication can be established with the appropriate land station, but when evidence exists that transmissions are received at that ground unit",
+          "When the aircraft transmitter is unserviceable and only the receiver can be used",
+          "When flying in uncontrolled airspace where no radio communication is required"
         ],
         "answer": 1
       },
@@ -4579,8 +4611,9 @@ export const subjects = [
       {
         "id": "comm_15",
         "number": 15,
-        "question": "Distress messages are messages... concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
+        "question": "Distress messages are messages...",
         "options": [
+          "concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
           "concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
           "sent by a pilot or an aircraft operating agency which have an imminent meaning for aircraft in flight.",
           "concerning the operation or maintenance of facilities which are important for the safety and regularity of flight operations."
@@ -4818,10 +4851,12 @@ export const subjects = [
       {
         "id": "comm_35",
         "number": 35,
-        "question": "What is the correct way of acknowledging the instruction \"DZF after lift-off climb straight ahead until 2500 feet before turning right heading 220 degrees, wind 090 degrees, 5 knots, runway 12, cleared for take-off\"? DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots, cleared for take-off DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots",
+        "question": "What is the correct way of acknowledging the instruction \"DZF after lift-off climb straight ahead until 2500 feet before turning right heading 220 degrees, wind 090 degrees, 5 knots, runway 12, cleared for take-off\"?",
         "options": [
           "DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, runway 12, cleared for take-off",
-          "DZF after lift-off climb straight ahead 2500 feet, wilco, heading 220 degrees, 090 degrees, 5 knots, cleared for take-off"
+          "DZF after lift-off climb straight ahead 2500 feet, wilco, heading 220 degrees, 090 degrees, 5 knots, cleared for take-off",
+          "DZF after lift-off climb straight ahead 2500 feet, then turn right heading 220, 090 degrees, 5 knots",
+          "DZF wilco, runway 12, cleared for take-off"
         ],
         "answer": 0
       },
@@ -4951,7 +4986,9 @@ export const subjects = [
         "question": "What is the correct course of action when experiencing a radio failure in class D airspace?",
         "options": [
           "The flight has to be continued above 5000 feet complying with VFR flight rules or the airspace has to be left using a standard routing",
-          "The flight has to be continued according to the last clearance complying with VFR flight rules or the airspace has to be left using a standard routing"
+          "The flight has to be continued according to the last clearance complying with VFR flight rules or the airspace has to be left using a standard routing",
+          "The flight has to be continued below 3000 feet complying with IFR flight rules until landing at the nearest airfield",
+          "The flight must be terminated immediately with a precautionary landing outside controlled airspace"
         ],
         "answer": 1
       },
@@ -4961,7 +4998,9 @@ export const subjects = [
         "question": "Distress messages contain...",
         "options": [
           "information concerning urgent spare parts which are required for a continuation of flight and which have to be ordered in advance.",
-          "information concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance."
+          "information concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
+          "information concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
+          "routine information concerning the operation of the aircraft."
         ],
         "answer": 1
       },
@@ -4992,11 +5031,12 @@ export const subjects = [
       {
         "id": "comm_50",
         "number": 50,
-        "question": "Urgency messages are defined as... messages concerning urgent spare parts which are needed for a continuation of flight and which need to be ordered in advance.",
+        "question": "Urgency messages are defined as...",
         "options": [
           "messages concerning aircraft and their passengers which face a grave and imminent threat and require immediate assistance.",
           "messages concerning the safety of an aircraft, a watercraft or some other vehicle or person in sight.",
-          "information concerning the apron personell and which imply an imminent danger to landing aircraft."
+          "information concerning the apron personnel and which imply an imminent danger to landing aircraft.",
+          "messages concerning urgent spare parts which are needed for a continuation of flight and which need to be ordered in advance."
         ],
         "answer": 1
       },
@@ -5565,9 +5605,10 @@ export const subjects = [
       {
         "id": "pof_44",
         "number": 44,
-        "question": "The \"twist\" of the aerofoil causes... the airflow on the outer wing to stall sooner at high angles of attack and the induced drag to decrease.",
+        "question": "The \"twist\" of the aerofoil causes...",
         "options": [
           "the airflow on the inner wing to stall sooner at high angles of attack and the induced drag to decrease.",
+          "the airflow on the outer wing to stall sooner at high angles of attack and the induced drag to decrease.",
           "the airflow to stall later in the area of the aileron and the induced drag to increase.",
           "the airflow to stall sooner in the area of the aileron and the induced drag to decrease."
         ],
@@ -5962,7 +6003,7 @@ export const subjects = [
         "number": 77,
         "question": "The adverse-yaw effect can occur...",
         "options": [
-          "during steep turns with more than 45\u00b0 bank angle.",
+          "during steep turns with more than 45° bank angle.",
           "with rudder deflection.",
           "on the elevator at every speed range.",
           "with aileron deflection during slow-flight conditions."
@@ -6261,7 +6302,9 @@ export const subjects = [
         "question": "The term \"flight time\" is defined as...",
         "options": [
           "the total time from the first aircraft movement until the moment it finally comes to rest at the end of the flight.",
-          "the period from the start of the take-off run to the final touchdown when landing."
+          "the period from the start of the take-off run to the final touchdown when landing.",
+          "the total time from engine start until engine shutdown.",
+          "the period from lift-off until touchdown."
         ],
         "answer": 0
       },
@@ -6283,7 +6326,9 @@ export const subjects = [
         "question": "What is the difference between a spin and a spiral dive?",
         "options": [
           "A spin is deliberately initiated while the spiral dive may occur in a stall",
-          "A spin will result in a stall and the aircraft's maneuverability will be limited; in a spiral dive the airflow is not disrupted and therefore the aircraft is fully maneuverable"
+          "A spin will result in a stall and the aircraft's maneuverability will be limited; in a spiral dive the airflow is not disrupted and therefore the aircraft is fully maneuverable",
+          "A spiral dive is always deliberately initiated while a spin occurs only inadvertently",
+          "There is no difference; both terms describe the same manoeuvre"
         ],
         "answer": 1
       },
@@ -6304,12 +6349,12 @@ export const subjects = [
         "number": 5,
         "question": "What is the correct pilot's action when the carburettor heat temperature indicator moves near the yellow area?",
         "options": [
-          "Switching the fuel selector to the other tank, because the fuel-air mixture is not correctSwitching the",
-          "carburettor heat on to avoid possible carburettor icing",
+          "Switching the carburettor heat on to avoid possible carburettor icing",
+          "Switching the fuel selector to the other tank, because the fuel-air mixture is not correct",
           "Look for cooler layers of air as soon as possible to continue the flight",
           "Increase the mixture because the carburettor temperature is too high"
         ],
-        "answer": 1
+        "answer": 0
       },
       {
         "id": "ops_6",
@@ -6473,7 +6518,9 @@ export const subjects = [
         "question": "How can the pilot of an engine-driven aircraft minimise the noise emission during descent and approach?",
         "options": [
           "High approach with minimum power setting, late descent, late configuration, adherence to established arrival routes",
-          "Low approach with minimum power setting, late configuration and steep approach, adherence to established arrival routes"
+          "Low approach with minimum power setting, late configuration and steep approach, adherence to established arrival routes",
+          "High approach with high power setting, early descent and early configuration",
+          "Low approach with high power setting and circling approach"
         ],
         "answer": 0
       },
@@ -6543,7 +6590,9 @@ export const subjects = [
         "question": "How is a halon fire extinguisher used correctly?",
         "options": [
           "Disarm the safeguard. Hold upright. From a distance of 1 m to 1.5 m aim at the source of the fire and activate the trigger.",
-          "Disarm the safeguard. Hold upright. Bring the nozzle as closely as possible to the source of the fire and activate the trigger."
+          "Disarm the safeguard. Hold upright. Bring the nozzle as closely as possible to the source of the fire and activate the trigger.",
+          "Disarm the safeguard. Hold upside down. From a distance of 3 m aim above the fire and activate the trigger.",
+          "Remove the safeguard after use. Hold horizontally and aim at the ceiling of the cabin."
         ],
         "answer": 0
       },
@@ -6722,7 +6771,8 @@ export const subjects = [
         "options": [
           "Shortly before reaching the mountain pass",
           "Overhead the mountain pass",
-          "At a minimum of 800 m prior reaching the field elevation of the mountain pass according to aviation law"
+          "At a minimum of 800 m prior reaching the field elevation of the mountain pass according to aviation law",
+          "Only after crossing the mountain pass"
         ],
         "answer": 0
       },
@@ -6779,10 +6829,12 @@ export const subjects = [
         "number": 46,
         "question": "A light aircraft intends to land behind a commercial airliner belonging to wake turbulence category \"medium\" or \"heavy\" on a long runway. How can the wake turbulence of the commercial aircraft be avoided?",
         "options": [
+          "By making a steep approach and a long landing, touching down beyond the touchdown point of the airliner",
           "By making a shallow approach and a long landing, touching down behind the touchdown point of the airliner's nose gear",
-          "By making a steep approach and a very short landing. The light aircraft should be able to stop before reaching the airliner's touchdown point"
+          "By making a steep approach and a very short landing. The light aircraft should be able to stop before reaching the airliner's touchdown point",
+          "By making a shallow approach and touching down before the touchdown point of the airliner"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "id": "ops_47",
@@ -6838,7 +6890,8 @@ export const subjects = [
         "question": "What has to be taken into consideration during an emergency landing on water?",
         "options": [
           "The wings may break off on impact",
-          "There may be a severe impact on the water surface with a strong braking effect A long flare out distance",
+          "There may be a severe impact on the water surface with a strong braking effect",
+          "A long flare out distance should be expected",
           "That the aircraft will submerge immediately"
         ],
         "answer": 1
@@ -6886,7 +6939,8 @@ export const subjects = [
         "options": [
           "Maintain visual ground contact and land at the next available aerodrome",
           "Stay below the cloud coverage and continue the flight using the instruments if necessary",
-          "Climb within clouds to a safe altitude using the instruments and continue the flight with radar guidance"
+          "Climb within clouds to a safe altitude using the instruments and continue the flight with radar guidance",
+          "Continue the flight according to the flight plan and request an IFR clearance"
         ],
         "answer": 0
       },
@@ -6933,7 +6987,7 @@ export const subjects = [
         "options": [
           "From the right or left side",
           "From the front or back side",
-          "At an angle of 45\u00b0",
+          "At an angle of 45°",
           "From the front, right or left side"
         ],
         "answer": 1
@@ -7041,7 +7095,8 @@ export const subjects = [
         "options": [
           "Apply maximum braking to reduce aircraft speed to less than hydroplaning speed, then continue normal ground roll",
           "Add power and use flaps and spoilers to brake aerodynamically",
-          "If all wheels are in motion, brake moderately. Maintain directional control by aerodynamic means"
+          "If all wheels are in motion, brake moderately. Maintain directional control by aerodynamic means",
+          "Retract the flaps immediately and apply full braking"
         ],
         "answer": 2
       },
@@ -7170,7 +7225,8 @@ export const subjects = [
         "options": [
           "the mass of the aeroplane plus standard items such as unusable fuel and other unusable liquids, lubricating oil in engine and auxiliary units, fire extinguishers, pyrotechnics, emergency oxygen equipment, supplementary electronic equipment.",
           "the total mass of the aeroplane ready for a specific type of operation excluding unusable fuel and traffic load.",
-          "The mass includes items such as crew and crew baggage."
+          "The mass includes items such as crew and crew baggage.",
+          "the mass of the aeroplane including usable fuel, crew, passengers and baggage."
         ],
         "answer": 0
       },
@@ -7201,7 +7257,7 @@ export const subjects = [
       {
         "id": "perf_11",
         "number": 11,
-        "question": "The density of AVGAS 100LL at 15\u00b0 C is...",
+        "question": "The density of AVGAS 100LL at 15° C is...",
         "options": [
           "0.72 kg/l.",
           "0.82 kg/l.",
@@ -7265,7 +7321,8 @@ export const subjects = [
         "options": [
           "the point through which the force of gravity is said to act on a mass.",
           "the point on the longitudinal axis or its extension from which the centers of gravity of all masses are referenced.",
-          "the product of mass and balance arm."
+          "the product of mass and balance arm.",
+          "the point on the lateral axis through which lift is said to act."
         ],
         "answer": 0
       },
@@ -7275,7 +7332,9 @@ export const subjects = [
         "question": "The term \"datum\" with regard to a mass and balance calculation defines...",
         "options": [
           "the point on the longitudinal axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced.",
-          "the point on the lateral axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced."
+          "the point on the lateral axis of an aeroplane or its extension from which the centers of gravity of all masses are referenced.",
+          "the point through which the force of gravity is said to act on a mass.",
+          "the product of mass and balance arm."
         ],
         "answer": 0
       },
@@ -7318,18 +7377,19 @@ export const subjects = [
       {
         "id": "perf_21",
         "number": 21,
-        "question": "After the power setting has been changed, it is desired to maintain the aeroplane at a constant altitude.In respect of the elevator trim it...\" should be adjusted when the speed has stabilised after the power change.",
+        "question": "After the power setting has been changed, it is desired to maintain the aeroplane at a constant altitude. In respect of the elevator trim it...",
         "options": [
           "will not need any adjustment.",
           "should be adjusted at the same time as the power change.",
-          "should be adjusted immediately before the power change to compensate for the anticipated pitch change attitude."
+          "should be adjusted immediately before the power change to compensate for the anticipated pitch change attitude.",
+          "should be adjusted when the speed has stabilised after the power change."
         ],
         "answer": 0
       },
       {
         "id": "perf_22",
         "number": 22,
-        "question": "Calculated take-off mass = 2300 lbs, calculated CG = 95.75 in, fuel burn = 170 lbs on station 87.00 in. Where is the CG situated after the landing?\"",
+        "question": "Calculated take-off mass = 2300 lbs, calculated CG = 95.75 in, fuel burn = 170 lbs on station 87.00 in. Where is the CG situated after the landing?",
         "options": [
           "96.45 in",
           "96.57 in",
@@ -7341,7 +7401,7 @@ export const subjects = [
       {
         "id": "perf_23",
         "number": 23,
-        "question": "Calculated take-off mass = 746 kg, calculated CG = 0.371, fuel burn = 30.5 l on station 0.45 m. Where is the CG situated after the landing?\"",
+        "question": "Calculated take-off mass = 746 kg, calculated CG = 0.371, fuel burn = 30.5 l on station 0.45 m. Where is the CG situated after the landing?",
         "options": [
           "36.9 cm",
           "37.5 cm",
@@ -7367,9 +7427,10 @@ export const subjects = [
         "number": 25,
         "question": "Limitations relating to aeroplane certification in the normal category are...",
         "options": [
-          "an aeroplane maximum weight of below 5000 kg restricted to no aerobatics and bank angles limited to 45\u00b0.",
-          "an aeroplane maximum weight of below 5700 kg restricted to aerobatics and bank angles of 30\u00b0.",
-          "an aeroplane maximum weight of below 5700 kg restricted to no spinning or aerobatics and bank angles limited to 60\u00b0."
+          "an aeroplane maximum weight of below 5000 kg restricted to no aerobatics and bank angles limited to 45°.",
+          "an aeroplane maximum weight of below 5700 kg restricted to aerobatics and bank angles of 30°.",
+          "an aeroplane maximum weight of below 5700 kg restricted to no spinning or aerobatics and bank angles limited to 60°.",
+          "an aeroplane maximum weight of below 2000 kg restricted to day VFR only."
         ],
         "answer": 2
       },
@@ -7415,7 +7476,9 @@ export const subjects = [
         "question": "How do high temperatures affect aircraft performance?",
         "options": [
           "High temperatures result in low air density, thus raising density altitude and decreasing aircraft performance",
-          "High temperatures result in high air density, thus lowering density altitude and increasing aircraft performance"
+          "High temperatures result in high air density, thus lowering density altitude and increasing aircraft performance",
+          "High temperatures have no effect on air density and aircraft performance",
+          "High temperatures result in low air density, thus lowering density altitude and increasing aircraft performance"
         ],
         "answer": 0
       },
@@ -7436,13 +7499,12 @@ export const subjects = [
         "number": 31,
         "question": "How does wind affect the take-off performance?",
         "options": [
-          "Headwind causes an increased airflow around the wing. The take-off distance will increase",
+          "Headwind causes an increased airflow around the wing. The take-off distance will decrease",
           "Headwind imposes an increased drag on the aircraft. The take-off distance will increase",
           "Tailwind aids the aircraft in overcoming the initial drag at the commencement of the take-off roll. The take-off distance will decrease",
-          "The take-off distance will decrease",
           "Tailwind reduces the relative wind on the airfoil. The take-off distance will increase"
         ],
-        "answer": 4
+        "answer": 0
       },
       {
         "id": "perf_32",
@@ -7462,7 +7524,9 @@ export const subjects = [
         "question": "How is the take-off distance influenced on a grass runway in comparison to a paved surface?",
         "options": [
           "The required distance for take-off will be increased. The braking performance on grass will not be as good as it would be on a paved surface",
-          "The required distance for take-off will be increased. The braking performance on grass will be better than on a paved surface"
+          "The required distance for take-off will be increased. The braking performance on grass will be better than on a paved surface",
+          "The required distance for take-off will be decreased due to lower friction on grass",
+          "There is no difference between grass and paved surfaces"
         ],
         "answer": 0
       },
@@ -7496,7 +7560,9 @@ export const subjects = [
         "question": "Regardless of the runway surface...",
         "options": [
           "a down sloping runway will increase the take-off run required but decrease the landing distance required.",
-          "an up sloping runway will increase the take-off run required but decrease the landing distance required."
+          "an up sloping runway will increase the take-off run required but decrease the landing distance required.",
+          "an up sloping runway will decrease the take-off run required and increase the landing distance required.",
+          "runway slope has no effect on take-off and landing distances."
         ],
         "answer": 1
       },
@@ -7530,7 +7596,7 @@ export const subjects = [
         "question": "During final approach and landing, if the TAS is significantly less than the ground speed, you will have...",
         "options": [
           "headwind.",
-          "crosswind at 90\u00b0.",
+          "crosswind at 90°.",
           "an inversion.",
           "tailwind."
         ],
@@ -7663,7 +7729,8 @@ export const subjects = [
         "options": [
           "the landing distance will be reduced due to increased braking action.",
           "the landing distance will be increased.",
-          "the landing distance will be unaffected as long as the glide path angle is reduced to compensate for the higher approach speed."
+          "the landing distance will be unaffected as long as the glide path angle is reduced to compensate for the higher approach speed.",
+          "the landing distance will be reduced due to improved lift."
         ],
         "answer": 1
       },
@@ -7674,14 +7741,15 @@ export const subjects = [
         "options": [
           "increase the stalling speed.",
           "have no effect on the stalling speed.",
-          "decrease the stalling speed."
+          "decrease the stalling speed.",
+          "increase cruise speed."
         ],
         "answer": 2
       },
       {
         "id": "perf_52",
         "number": 52,
-        "question": "Which is the shortest possible landing distance according to the diagram with a given OAT of 10\u00b0 C, a pressure altitude of 3000 ft and a headwind of 9 kt?",
+        "question": "Which is the shortest possible landing distance according to the diagram with a given OAT of 10° C, a pressure altitude of 3000 ft and a headwind of 9 kt?",
         "options": [
           "Approx. 370 m",
           "Approx. 365 m",
@@ -7733,7 +7801,8 @@ export const subjects = [
         "options": [
           "because the airflow in the carburettor is mechanically inhibited.",
           "because the fuel flow is increased to compensate for the weaker mixture due to warmer, denser air.",
-          "because there is a power loss resulting from warmer, less dense air entering the combustion chamber."
+          "because there is a power loss resulting from warmer, less dense air entering the combustion chamber.",
+          "because the ignition timing is automatically retarded."
         ],
         "answer": 2
       },
@@ -7816,7 +7885,8 @@ export const subjects = [
         "options": [
           "at just above the minimum drag speed.",
           "just below that speed which provides the maximum power / airspeed ratio.",
-          "at the same speed for maximum endurance + 10 % and at the lowest density altitude that is safely possible."
+          "at the same speed for maximum endurance + 10 % and at the lowest density altitude that is safely possible.",
+          "at maximum cruise power at high density altitude."
         ],
         "answer": 0
       },
@@ -7827,7 +7897,8 @@ export const subjects = [
         "options": [
           "the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude plus a safety margin, rounded to the next higher 100 ft.",
           "the highest elevation within an area covering 30 minutes of latitude and 30 minutes of longitude.",
-          "the highest elevation within an area covering 1 degree of latitude and 1 degree of longitude plus a safety margin, rounded to the next lower 100 ft."
+          "the highest elevation within an area covering 1 degree of latitude and 1 degree of longitude plus a safety margin, rounded to the next lower 100 ft.",
+          "the average elevation within an area covering 30 minutes of latitude and 30 minutes of longitude."
         ],
         "answer": 0
       },
@@ -7846,7 +7917,7 @@ export const subjects = [
       {
         "id": "perf_66",
         "number": 66,
-        "question": "What is the lowest possible VFR flight level if a true course of 181\u00b0 is selected and a variation of 3\u00b0 east exists?",
+        "question": "What is the lowest possible VFR flight level if a true course of 181° is selected and a variation of 3° east exists?",
         "options": [
           "FL 055",
           "FL 050",
@@ -7858,7 +7929,7 @@ export const subjects = [
       {
         "id": "perf_67",
         "number": 67,
-        "question": "A flight time of 20 minutes is necessary for a route of 10.8 cm on the aeronautical chart ICAO 1:500 000. What is the ground speed (GS) according to this?\"",
+        "question": "A flight time of 20 minutes is necessary for a route of 10.8 cm on the aeronautical chart ICAO 1:500 000. What is the ground speed (GS) according to this?",
         "options": [
           "162 kt",
           "200 MPH",
@@ -7968,7 +8039,8 @@ export const subjects = [
         "options": [
           "make an appropriate entry in the aircraft technical log.",
           "must be inspected by at least two pilots licenced on the type, one of whom must be the pilot in command.",
-          "must be subjected to a duplicate inspected by two engineers before the next flight."
+          "must be subjected to a duplicate inspection by two engineers before the next flight.",
+          "may be flown again without any further action if no visible damage is found."
         ],
         "answer": 0
       },
@@ -7977,9 +8049,10 @@ export const subjects = [
         "number": 2,
         "question": "Aircraft maintenance carried out that does not concur with the maintenance schedule quoted in the certificate of airworthiness (C of A), will...",
         "options": [
-          "aeroplane is flown again.",
+          "have no effect as long as the aeroplane is flown again.",
           "invalidate the C of A until the required maintenance is completed.",
-          "invalidate the previous certificate of release to service as the maintenance schedule will not have complied with it."
+          "invalidate the previous certificate of release to service as the maintenance schedule will not have complied with it.",
+          "require only an entry in the journey logbook."
         ],
         "answer": 2
       },
@@ -8325,7 +8398,9 @@ export const subjects = [
         "question": "What is the purpose of primary flight controls?",
         "options": [
           "Primary flight controls are used by the pilot for the immediate control of pitch, roll and yaw of an aircraft",
-          "Primary flight controls are used by the pilot to control all movements of an aircraft during all phases of flight"
+          "Primary flight controls are used by the pilot to control all movements of an aircraft during all phases of flight",
+          "Primary flight controls are used only for trimming the aircraft in cruise flight",
+          "Primary flight controls are used only on the ground for steering"
         ],
         "answer": 0
       },
@@ -8464,10 +8539,11 @@ export const subjects = [
       {
         "id": "agk_43",
         "number": 43,
-        "question": "What is the function of an idle cut-off valve in a piston engined aeroplane? It controls engine slow-running via the carburettor idle jet",
+        "question": "What is the function of an idle cut-off valve in a piston engined aeroplane?",
         "options": [
-          "It changes fuel flow to the main jet from the idle jet when power is increased",
+          "It controls engine slow-running via the carburettor idle jet",
           "It inhibits the fuel flow from a discharge nozzle in the carburettor when selected",
+          "It changes fuel flow to the main jet from the idle jet when power is increased",
           "It shuts down the engine automatically if the cylinder head temperature rises due to long periods at idle on the ground"
         ],
         "answer": 1
@@ -8514,8 +8590,8 @@ export const subjects = [
         "question": "The voltmeter provides an indication of...",
         "options": [
           "the electric potential difference in a system in Volt [V].",
-          "the electric current in a system in Amp\u00e9re [A].",
-          "the system voltage in Amp\u00e9re [A].",
+          "the electric current in a system in Ampére [A].",
+          "the system voltage in Ampére [A].",
           "the electric current in a system in Volt [V]."
         ],
         "answer": 0
@@ -8667,9 +8743,10 @@ export const subjects = [
       {
         "id": "agk_60",
         "number": 60,
-        "question": "The compression ratio of a piston engine is defined as the ratio of... cylinder volume when the piston is at bottom dead centre (BDC) to the total cylinder volume.",
+        "question": "The compression ratio of a piston engine is defined as the ratio of...",
         "options": [
           "cylinder volume with the piston at bottom dead centre (BDC) to cylinder volume with the piston at top dead centre (TDC).",
+          "cylinder volume when the piston is at bottom dead centre (BDC) to the total cylinder volume.",
           "total cylinder volume to the volume remaining above the piston when it is at top dead centre (TDC).",
           "total cylinder volume to the volume remaining below the piston when it is at top dead centre (TDC)."
         ],
@@ -8789,9 +8866,9 @@ export const subjects = [
         "question": "A carburettor engine continues to run in idle with the butterfly (throttle) valve closed, because...",
         "options": [
           "the carburettor has an independent idle run system.",
-          "the throttle can never be totally closed. the",
-          "pilot has to adjust idle with the thrust lever.",
-          "an automatic injection system is provided for idle."
+          "the throttle can never be totally closed. The pilot has to adjust idle with the thrust lever.",
+          "an automatic injection system is provided for idle.",
+          "the mixture is automatically leaned by the idle cut-off valve."
         ],
         "answer": 0
       },
@@ -8839,7 +8916,7 @@ export const subjects = [
           "During night flights",
           "During high pressure weather situations in winter",
           "With a wrong mixture setting",
-          "In high humidity and temperatures between -5\u00b0C and +20\u00b0C"
+          "In high humidity and temperatures between -5°C and +20°C"
         ],
         "answer": 3
       },
@@ -8918,8 +8995,9 @@ export const subjects = [
       {
         "id": "agk_81",
         "number": 81,
-        "question": "What happens during oil filter clocking? A bypass valve opens thus enabling the circulation to continue, debris will not be filtered",
+        "question": "What happens during oil filter clogging?",
         "options": [
+          "A bypass valve opens thus enabling the circulation to continue, debris will not be filtered",
           "A bypass valve opens thus enabling the circulation to continue, debris will be filtered by an alternate filter",
           "The oil circulation will end after 30 minutes so that a proper engine run will not be guaranteed",
           "The oil circulation will end after 15 minutes so that a proper engine run will not be guaranteed"
@@ -9457,10 +9535,10 @@ export const subjects = [
       {
         "id": "agk_126",
         "number": 126,
-        "question": "Which is the purpose of the altimeter subscale? To reference the altimeter reading to a predetermined level such as mean sea level, aerodrome level",
+        "question": "Which is the purpose of the altimeter subscale?",
         "options": [
-          "or pressure level 1013.25 hPa",
-          "To adjust the altimeter reading for non-standard temperatuure",
+          "To reference the altimeter reading to a predetermined level such as mean sea level, aerodrome level or pressure level 1013.25 hPa",
+          "To adjust the altimeter reading for non-standard temperature",
           "To correct the altimeter reading for system errors",
           "To set the reference level for the altitude decoder of the transponder"
         ],
@@ -9676,7 +9754,9 @@ export const subjects = [
         "question": "Which of the following states the working principle of an airspeed indicator?",
         "options": [
           "Total air pressure is measured and compared against static air pressure.",
-          "Static air pressure is measured and compared against a vacuum."
+          "Static air pressure is measured and compared against a vacuum.",
+          "Dynamic pressure is measured directly by the pitot tube without static reference.",
+          "Cabin pressure is measured and compared against outside static pressure."
         ],
         "answer": 0
       },
@@ -9719,7 +9799,7 @@ export const subjects = [
       {
         "id": "agk_148",
         "number": 148,
-        "question": "The speed range which shall not be flown during turbulence is marked on the airspeed indicator with a\u2026",
+        "question": "The speed range which shall not be flown during turbulence is marked on the airspeed indicator with a…",
         "options": [
           "green arc.",
           "yellow arc.",
@@ -9803,7 +9883,7 @@ export const subjects = [
       {
         "id": "agk_155",
         "number": 155,
-        "question": "An aircraft in the northern hemisphere accelerates on a magnetic heading of 090\u00b0. The indication of the direct reading compass...",
+        "question": "An aircraft in the northern hemisphere accelerates on a magnetic heading of 090°. The indication of the direct reading compass...",
         "options": [
           "indicates a greater heading.",
           "indicates a smaller heading.",
@@ -9815,12 +9895,12 @@ export const subjects = [
       {
         "id": "agk_156",
         "number": 156,
-        "question": "An aircraft in the northern hemisphere accelerates on a magnetic heading of 270\u00b0. Which reaction do you expect from the the magnetic compass indication?",
+        "question": "An aircraft in the northern hemisphere accelerates on a magnetic heading of 270°. Which reaction do you expect from the the magnetic compass indication?",
         "options": [
-          "An indication of approximately 300\u00b0",
-          "An indication of approximately 240\u00b0",
-          "An indication of approximately 270\u00b0",
-          "An indication of approximately 090\u00b0"
+          "An indication of approximately 300°",
+          "An indication of approximately 240°",
+          "An indication of approximately 270°",
+          "An indication of approximately 090°"
         ],
         "answer": 0
       },
@@ -9853,10 +9933,10 @@ export const subjects = [
         "number": 159,
         "question": "The apparent drift of a gyro equals...",
         "options": [
-          "15\u00b0/h x cos(longitude).",
-          "13\u00b0/h x sin(latitude).",
-          "13\u00b0/h x cos(longitude).",
-          "15\u00b0/h x sin(latitude)."
+          "15°/h x cos(longitude).",
+          "13°/h x sin(latitude).",
+          "13°/h x cos(longitude).",
+          "15°/h x sin(latitude)."
         ],
         "answer": 3
       },
@@ -9923,7 +10003,7 @@ export const subjects = [
       {
         "id": "agk_165",
         "number": 165,
-        "question": "What is the time needed for a complete 360\u00b0 turn with a rate of turn of 3 degrees?",
+        "question": "What is the time needed for a complete 360° turn with a rate of turn of 3 degrees?",
         "options": [
           "3 min",
           "2 min",
@@ -9975,7 +10055,8 @@ export const subjects = [
         "options": [
           "is built as pendulum so that it is sensitive to tilting motion and can indicate this without delay.",
           "is fully gimballed; indication errors may occur during longer or repeated turns.",
-          "is half gimballed, movable around all three axis and will retain its position in space as long as there is no tilting motion."
+          "is half gimballed, movable around all three axes and will retain its position in space as long as there is no tilting motion.",
+          "is fixed to the airframe and indicates pitch only."
         ],
         "answer": 2
       },
@@ -9996,7 +10077,7 @@ export const subjects = [
         "number": 171,
         "question": "The standard directional gyro...",
         "options": [
-          "is generally reliable for bank and pitch angles less than 60\u00b0.",
+          "is generally reliable for bank and pitch angles less than 60°.",
           "is not reliable during inverted flight.",
           "is reliable only when maintaining the max. permissible speed.",
           "is reliable in all flight attitudes."
@@ -10127,9 +10208,9 @@ export const subjects = [
         "question": "Which statement is correct with regard to the positional orientation of the polar axis of the Earth to the plane of the ecliptic (plane of the sun's movement in space)?",
         "options": [
           "The polar axis of the Earth is parallel to the plane of the ecliptic",
-          "The angle between the polar axis of the Earth and the plane of the ecliptic is approximately 90\u00b0",
-          "The angle between the polar axis of the Earth and the plane of the ecliptic is approximately 23.5\u00b0",
-          "The angle between the polar axis of the Earth and the plane of the ecliptic is approximately 66.5\u00b0"
+          "The angle between the polar axis of the Earth and the plane of the ecliptic is approximately 90°",
+          "The angle between the polar axis of the Earth and the plane of the ecliptic is approximately 23.5°",
+          "The angle between the polar axis of the Earth and the plane of the ecliptic is approximately 66.5°"
         ],
         "answer": 3
       },
@@ -10163,7 +10244,9 @@ export const subjects = [
         "question": "Which statement is correct with regard to the polar axis of the Earth?",
         "options": [
           "The polar axis of the Earth crosses the geographic South Pole and the geographic North Pole and is perpendicular to the plane of the equator",
-          "The polar axis of the Earth crosses the magnetic south pole and the magnetic north pole and is at an angle of 66.5\u00b0 to the plane of the equator"
+          "The polar axis of the Earth crosses the magnetic south pole and the magnetic north pole and is at an angle of 66.5° to the plane of the equator",
+          "The polar axis of the Earth crosses the geographic North Pole and the magnetic south pole and is parallel to the plane of the ecliptic",
+          "The polar axis of the Earth is identical with the magnetic axis"
         ],
         "answer": 0
       },
@@ -10232,10 +10315,10 @@ export const subjects = [
         "number": 12,
         "question": "Where are the two polar circles?",
         "options": [
-          "23.5\u00b0 north and south of the poles",
-          "20.5\u00b0 south of the poles",
-          "At a latitude of 20.5\u00b0S and 20.5\u00b0N",
-          "23.5\u00b0 north and south of the equator"
+          "23.5° north and south of the poles",
+          "20.5° south of the poles",
+          "At a latitude of 20.5°S and 20.5°N",
+          "23.5° north and south of the equator"
         ],
         "answer": 0
       },
@@ -10266,7 +10349,7 @@ export const subjects = [
       {
         "id": "nav_15",
         "number": 15,
-        "question": "What is the distance between the two parallels of longitude 150\u00b0E and 151\u00b0E on the equator?",
+        "question": "What is the distance between the two parallels of longitude 150°E and 151°E on the equator?",
         "options": [
           "60 SM",
           "111 NM",
@@ -10290,7 +10373,7 @@ export const subjects = [
       {
         "id": "nav_17",
         "number": 17,
-        "question": "Assume two arbitrary points A and B on the same parallel of latitude, but not on the equator. Point A is located on 010\u00b0E and point B on 020\u00b0E. The rumb line distance between A and B is always...",
+        "question": "Assume two arbitrary points A and B on the same parallel of latitude, but not on the equator. Point A is located on 010°E and point B on 020°E. The rumb line distance between A and B is always...",
         "options": [
           "less than 300 NM.",
           "more than 600 NM.",
@@ -10302,7 +10385,7 @@ export const subjects = [
       {
         "id": "nav_18",
         "number": 18,
-        "question": "An aircraft is situated on 60\u00b0N 040\u00b0W.The rhumb line distance to the position 60\u00b0N 000\u00b0W on the Greenwich meridian equals...",
+        "question": "An aircraft is situated on 60°N 040°W.The rhumb line distance to the position 60°N 000°W on the Greenwich meridian equals...",
         "options": [
           "600 NM.",
           "1200 km.",
@@ -10314,7 +10397,7 @@ export const subjects = [
       {
         "id": "nav_19",
         "number": 19,
-        "question": "What is the difference in time when the sun moves 20\u00b0 of longitude?",
+        "question": "What is the difference in time when the sun moves 20° of longitude?",
         "options": [
           "0:20 h",
           "1:00 h",
@@ -10326,7 +10409,7 @@ export const subjects = [
       {
         "id": "nav_20",
         "number": 20,
-        "question": "The sun moves 10\u00b0 of longitude. What is the difference in time?",
+        "question": "The sun moves 10° of longitude. What is the difference in time?",
         "options": [
           "0.66 h",
           "0.4 h",
@@ -10362,7 +10445,7 @@ export const subjects = [
       {
         "id": "nav_23",
         "number": 23,
-        "question": "An aircraft is located at a position east of the 180 \u00b0W meridian heading towards a position west of this meridian. Which statement is correct?",
+        "question": "An aircraft is located at a position east of the 180 °W meridian heading towards a position west of this meridian. Which statement is correct?",
         "options": [
           "The aircraft passes the dateline and the date decreases by one day",
           "The aircraft passes the dateline and the date increases by two days",
@@ -10377,19 +10460,21 @@ export const subjects = [
         "question": "The term 'sunrise' is defined as...",
         "options": [
           "the point in time when an observer for the first time on the particular day is able to see the centre of the sun disk.",
-          "the point in time when an observer for the first time on the particular day is able to see the upper edge of the sun disk."
+          "the point in time when an observer for the first time on the particular day is able to see the upper edge of the sun disk.",
+          "the point in time when the centre of the sun crosses the celestial equator.",
+          "the point in time when the sun reaches its highest position of the day."
         ],
         "answer": 1
       },
       {
         "id": "nav_25",
         "number": 25,
-        "question": "Given: TC: 032\u00b0; WCA: +11\u00b0; DEV: 001\u00b0 W; CH: 049\u00b0 What are TH, VAR und MH?",
+        "question": "Given: TC: 032°; WCA: +11°; DEV: 001° W; CH: 049° What are TH, VAR und MH?",
         "options": [
-          "TH: 048\u00b0. VAR: 005\u00b0 W. MH: 043\u00b0.",
-          "TH: 043\u00b0. VAR: 005\u00b0 W. MH: 048\u00b0.",
-          "TH: 043\u00b0. VAR: 005\u00b0 E. MH: 048\u00b0.",
-          "TH: 048\u00b0. VAR: 005\u00b0 E. MH: 050\u00b0."
+          "TH: 048°. VAR: 005° W. MH: 043°.",
+          "TH: 043°. VAR: 005° W. MH: 048°.",
+          "TH: 043°. VAR: 005° E. MH: 048°.",
+          "TH: 048°. VAR: 005° E. MH: 050°."
         ],
         "answer": 1
       },
@@ -10422,10 +10507,10 @@ export const subjects = [
         "number": 28,
         "question": "What is the value on the compass card of the direction south-southeast?",
         "options": [
-          "157.5\u00b0",
-          "180\u00b0",
-          "135\u00b0",
-          "155.7\u00b0"
+          "157.5°",
+          "180°",
+          "135°",
+          "155.7°"
         ],
         "answer": 0
       },
@@ -10444,7 +10529,7 @@ export const subjects = [
       {
         "id": "nav_30",
         "number": 30,
-        "question": "The term \u201amagnetic course' (MC) is defined as...",
+        "question": "The term ‚magnetic course' (MC) is defined as...",
         "options": [
           "the angle between magnetic north and an arbitrary direction.",
           "the direction from an arbitrary point on Earth to the magnetic north pole.",
@@ -10482,7 +10567,7 @@ export const subjects = [
         "number": 33,
         "question": "Where does the inclination reach its lowest value?",
         "options": [
-          "At the geographic p\u00f5les",
+          "At the geographic põles",
           "At the geographic equator",
           "At the magnetic poles",
           "At the magnetic equator"
@@ -10590,9 +10675,10 @@ export const subjects = [
         "number": 42,
         "question": "Which are the properties of a Mercator chart?",
         "options": [
-          "The chart convergency is 90\u00b0, the chart is an equal-area projection, and rhumb lines are depicted as straight lines",
+          "The chart convergency is 90°, the chart is an equal-area projection, and rhumb lines are depicted as straight lines",
           "The chart is true to scale, the chart is conformal, and great circles are depicted as straight lines",
-          "The chart convergency is 0\u00b0, the chart is conformal, and rhumb lines are depicted as straight lines"
+          "The chart convergency is 0°, the chart is conformal, and rhumb lines are depicted as straight lines",
+          "The chart is equidistant, the chart is conformal, and great circles are depicted as straight lines"
         ],
         "answer": 2
       },
@@ -10601,8 +10687,10 @@ export const subjects = [
         "number": 43,
         "question": "Which are the properties of a conformal projection chart?",
         "options": [
-          "The scale on an arbitrary point must be independent of direction and the angle between longitudes and latitudes on the chart is not necessarily equal to 90\u00b0",
-          "The scale on an arbitrary point must be independent of direction and the angle between longitudes and latitudes on the chart is always 90\u00b0"
+          "The scale on an arbitrary point must be independent of direction and the angle between longitudes and latitudes on the chart is not necessarily equal to 90°",
+          "The scale on an arbitrary point must be independent of direction and the angle between longitudes and latitudes on the chart is always 90°",
+          "The scale varies with direction and areas are preserved while angles are distorted",
+          "The scale is true along all meridians but not along parallels"
         ],
         "answer": 1
       },
@@ -10645,12 +10733,12 @@ export const subjects = [
       {
         "id": "nav_47",
         "number": 47,
-        "question": "For a short flight from A to B the pilot extracts the following information from an aeronautical chart True course: 245\u00b0 Magnetic variation: 7\u00b0 W The magnetic course (MC) equals...",
+        "question": "For a short flight from A to B the pilot extracts the following information from an aeronautical chart True course: 245° Magnetic variation: 7° W The magnetic course (MC) equals...",
         "options": [
-          "238\u00b0.",
-          "245\u00b0.",
-          "007\u00b0.",
-          "252\u00b0."
+          "238°.",
+          "245°.",
+          "007°.",
+          "252°."
         ],
         "answer": 3
       },
@@ -10717,7 +10805,7 @@ export const subjects = [
       {
         "id": "nav_53",
         "number": 53,
-        "question": "Given: Calibrated airspeed (CAS): 155 kt. Flight level (FL) 80. Outside air temperature (OAT): -15\u00b0 C. The true airspeed (TAS) equals...",
+        "question": "Given: Calibrated airspeed (CAS): 155 kt. Flight level (FL) 80. Outside air temperature (OAT): -15° C. The true airspeed (TAS) equals...",
         "options": [
           "164 kts.",
           "119 kts.",
@@ -10729,7 +10817,7 @@ export const subjects = [
       {
         "id": "nav_54",
         "number": 54,
-        "question": "An aircraft is flying at a pressure altitude of 7000 feet with an outside air temperature of +21\u00b0 C. The QNH altitude is 6500 ft. The true altitude equals...",
+        "question": "An aircraft is flying at a pressure altitude of 7000 feet with an outside air temperature of +21° C. The QNH altitude is 6500 ft. The true altitude equals...",
         "options": [
           "6250 ft",
           "6500 ft.",
@@ -10741,31 +10829,31 @@ export const subjects = [
       {
         "id": "nav_55",
         "number": 55,
-        "question": "An aircraft is following a true heading (TH) of 250\u00b0 at a ground speed (GS) of 120 kt. The wind vector is 010\u00b0/30 kt. The true course (TC) equals...",
+        "question": "An aircraft is following a true heading (TH) of 250° at a ground speed (GS) of 120 kt. The wind vector is 010°/30 kt. The true course (TC) equals...",
         "options": [
-          "263\u00b0.",
-          "237\u00b0.",
-          "257\u00b0.",
-          "243\u00b0."
+          "263°.",
+          "237°.",
+          "257°.",
+          "243°."
         ],
         "answer": 0
       },
       {
         "id": "nav_56",
         "number": 56,
-        "question": "Given: True course: 255\u00b0. TAS: 100 kt. Wind: 200\u00b0/10 kt. The true heading equals...",
+        "question": "Given: True course: 255°. TAS: 100 kt. Wind: 200°/10 kt. The true heading equals...",
         "options": [
-          "245\u00b0.",
-          "250\u00b0.",
-          "275\u00b0.",
-          "265\u00b0."
+          "245°.",
+          "250°.",
+          "275°.",
+          "265°."
         ],
         "answer": 1
       },
       {
         "id": "nav_57",
         "number": 57,
-        "question": "An aircraft is following a true course (TC) of 040\u00b0 at a constant true airspeed (TAS) of 180 kt. The wind vector is 350\u00b0/30 kt. The groundspeed (GS) equals...",
+        "question": "An aircraft is following a true course (TC) of 040° at a constant true airspeed (TAS) of 180 kt. The wind vector is 350°/30 kt. The groundspeed (GS) equals...",
         "options": [
           "172 kt.",
           "168 kt.",
@@ -10777,24 +10865,24 @@ export const subjects = [
       {
         "id": "nav_58",
         "number": 58,
-        "question": "An aircraft is following a true course (TC) of 140\u00b0 at a ground speed (GS) of 120 kt. The true airspeed (TAS) is 150 kt, the true heading (TH) is 150\u00b0. The wind vector (W/WS) equals...",
+        "question": "An aircraft is following a true course (TC) of 140° at a ground speed (GS) of 120 kt. The true airspeed (TAS) is 150 kt, the true heading (TH) is 150°. The wind vector (W/WS) equals...",
         "options": [
-          "200\u00b0 / 20 kts.",
-          "183\u00b0 / 38 kts.",
-          "220\u00b0 / 30 kts.",
-          "225\u00b0 / 16 kts."
+          "200° / 20 kts.",
+          "183° / 38 kts.",
+          "220° / 30 kts.",
+          "225° / 16 kts."
         ],
         "answer": 1
       },
       {
         "id": "nav_59",
         "number": 59,
-        "question": "Given: True course: 120\u00b0. TAS: 120 kt. Wind: 150\u00b0/12 kt. The WCA equals...\"",
+        "question": "Given: True course: 120°. TAS: 120 kt. Wind: 150°/12 kt. The WCA equals...",
         "options": [
-          "6\u00b0 to the right.",
-          "3\u00b0 to the left.",
-          "6\u00b0 to the left.",
-          "3\u00b0 to the right."
+          "6° to the right.",
+          "3° to the left.",
+          "6° to the left.",
+          "3° to the right."
         ],
         "answer": 1
       },
@@ -10815,22 +10903,22 @@ export const subjects = [
         "number": 61,
         "question": "The distance from 'A' to 'B' measures 120 NM. At a distance of 55 NM from 'A' the pilot realizes a deviation of 7 NM to the right. What approximate course change must be made to reach 'B' directly?",
         "options": [
-          "8\u00b0 left",
-          "15\u00b0 left",
-          "6\u00b0 left",
-          "14\u00b0 left"
+          "8° left",
+          "15° left",
+          "6° left",
+          "14° left"
         ],
         "answer": 0
       },
       {
         "id": "nav_62",
         "number": 62,
-        "question": "An aeroplane has a heading of 090\u00b0. The distance which has to be flown is 90 NM. After 45 NM the aeroplane is 4.5 NM north of the planned flight path. What is the corrected heading to reach the arrival aerodrome directly?",
+        "question": "An aeroplane has a heading of 090°. The distance which has to be flown is 90 NM. After 45 NM the aeroplane is 4.5 NM north of the planned flight path. What is the corrected heading to reach the arrival aerodrome directly?",
         "options": [
-          "6\u00b0 to the right",
-          "9\u00b0 to the right",
-          "12\u00b0 to the right",
-          "18\u00b0 to the right"
+          "6° to the right",
+          "9° to the right",
+          "12° to the right",
+          "18° to the right"
         ],
         "answer": 0
       },
@@ -10839,10 +10927,10 @@ export const subjects = [
         "number": 63,
         "question": "What is the meaning of the 1:60 rule?",
         "options": [
-          "60 NM lateral offset at 1\u00b0 drift after 1 NM",
-          "6 NM lateral offset at 1\u00b0 drift after 10 NM",
-          "1 NM lateral offset at 1\u00b0 drift after 60 NM",
-          "10 NM lateral offset at 1\u00b0 drift after 60 NM"
+          "60 NM lateral offset at 1° drift after 1 NM",
+          "6 NM lateral offset at 1° drift after 10 NM",
+          "1 NM lateral offset at 1° drift after 60 NM",
+          "10 NM lateral offset at 1° drift after 60 NM"
         ],
         "answer": 2
       },
@@ -10897,12 +10985,12 @@ export const subjects = [
       {
         "id": "nav_68",
         "number": 68,
-        "question": "Given: QDM: 138\u00b0 VAR: 10\u00b0 E The QUJ equals...",
+        "question": "Given: QDM: 138° VAR: 10° E The QUJ equals...",
         "options": [
-          "328\u00b0.",
-          "318\u00b0.",
-          "148\u00b0.",
-          "168\u00b0."
+          "328°.",
+          "318°.",
+          "148°.",
+          "168°."
         ],
         "answer": 1
       },
@@ -10945,7 +11033,7 @@ export const subjects = [
       {
         "id": "nav_72",
         "number": 72,
-        "question": "The pilot receives a QDM of 035\u00b0 from the VDF ground station. Where is the aircraft located in relation to the ground station?",
+        "question": "The pilot receives a QDM of 035° from the VDF ground station. Where is the aircraft located in relation to the ground station?",
         "options": [
           "Southwest",
           "Northwest",
@@ -10993,7 +11081,7 @@ export const subjects = [
       {
         "id": "nav_76",
         "number": 76,
-        "question": "A pilot wants to approach an NDB on QDM 090\u00b0. The aircraft flies for about 5 minutes with a magnetic heading (MH) of 095\u00b0 and the RBI indication of 355\u00b0. After 6 minutes the RBI indicates 358\u00b0. Which statement is correct?",
+        "question": "A pilot wants to approach an NDB on QDM 090°. The aircraft flies for about 5 minutes with a magnetic heading (MH) of 095° and the RBI indication of 355°. After 6 minutes the RBI indicates 358°. Which statement is correct?",
         "options": [
           "The crosswind component increased; the pilot has to increase the MH",
           "The crosswind component decreased; the pilot has to increase the MH",
@@ -11068,9 +11156,9 @@ export const subjects = [
         "question": "Full deflection of the course deviation indicator (CDI) means that the aircraft is located at least...",
         "options": [
           "10 NM beside the selected course.",
-          "10\u00b0 beside the selected course.",
+          "10° beside the selected course.",
           "2 NM beside the selected course.",
-          "2\u00b0 beside the selected course."
+          "2° beside the selected course."
         ],
         "answer": 1
       },
@@ -11165,7 +11253,8 @@ export const subjects = [
         "options": [
           "The pulses of a primary radar are variable pulse-modulated, the pulses of a secondary radar are statically amplitude-modulated",
           "The pulses of a primary radar are reflected by the aircraft's surface, the pulses of a secondary radar system are answered by a transponder",
-          "The primary radar is displayed on a computer screen, the secondary radar on a radar strip"
+          "The primary radar is displayed on a computer screen, the secondary radar on a radar strip",
+          "The primary radar requires a transponder, the secondary radar works without any airborne equipment"
         ],
         "answer": 1
       },
@@ -11210,10 +11299,10 @@ export const subjects = [
         "number": 94,
         "question": "The Arctic circle and Antarctic circle are located...",
         "options": [
-          "at 23.5\u00b0 N and S",
-          "23.5\u00b0 away from both terrestrial poles",
-          "23.5\u00b0 south of both terrestrial poles.",
-          "23.5\u00b0 away from the equator."
+          "at 23.5° N and S",
+          "23.5° away from both terrestrial poles",
+          "23.5° south of both terrestrial poles.",
+          "23.5° away from the equator."
         ],
         "answer": 1
       },
@@ -11222,10 +11311,10 @@ export const subjects = [
         "number": 95,
         "question": "Any meridian intersects the equator with an angle of...",
         "options": [
-          "60\u00b0.",
-          "90\u00b0.",
-          "45\u00b0.",
-          "180\u00b0."
+          "60°.",
+          "90°.",
+          "45°.",
+          "180°."
         ],
         "answer": 1
       },
@@ -11256,7 +11345,7 @@ export const subjects = [
       {
         "id": "nav_98",
         "number": 98,
-        "question": "The distance between the meridians 010\u00b0 W and 011\u00b0 W at the equator equals...",
+        "question": "The distance between the meridians 010° W and 011° W at the equator equals...",
         "options": [
           "111 km.",
           "111 NM.",
@@ -11328,7 +11417,7 @@ export const subjects = [
       {
         "id": "nav_104",
         "number": 104,
-        "question": "Where is the magnetic inclination 0\u00b0?",
+        "question": "Where is the magnetic inclination 0°?",
         "options": [
           "At the magnetic poles",
           "Overhead the geographic poles",
@@ -11342,8 +11431,8 @@ export const subjects = [
         "number": 105,
         "question": "When using a direct reading magnetic compass to make a turn onto a southerly heading, the turn should be stopped...",
         "options": [
-          "15\u00b0 before the desired heading when making a standard rate turn.",
-          "30\u00b0 before the desired heading when making a standard rate turn.",
+          "15° before the desired heading when making a standard rate turn.",
+          "30° before the desired heading when making a standard rate turn.",
           "before the desired heading.",
           "after the desired heading."
         ],
@@ -11354,10 +11443,10 @@ export const subjects = [
         "number": 106,
         "question": "Possible values for magnetic variations are...",
         "options": [
-          "angles between 0\u00b0 and 180\u00b0 E/W.",
-          "angles between 0\u00b0 and 360\u00b0 E/W.",
-          "angles between 23.5\u00b0 E and 23.5\u00b0 W.",
-          "angles between 90\u00b0 E and 90\u00b0 W."
+          "angles between 0° and 180° E/W.",
+          "angles between 0° and 360° E/W.",
+          "angles between 23.5° E and 23.5° W.",
+          "angles between 90° E and 90° W."
         ],
         "answer": 0
       },
@@ -11388,7 +11477,7 @@ export const subjects = [
       {
         "id": "nav_109",
         "number": 109,
-        "question": "How does the indication of the compass change during a flight on west courses when changing from level flight to an accelerated descent? The indicaton...",
+        "question": "How does the indication of the compass change during a flight on west courses when changing from level flight to an accelerated descent?",
         "options": [
           "becomes larger.",
           "does not change.",
@@ -11414,8 +11503,8 @@ export const subjects = [
         "number": 111,
         "question": "Which magnetic influences in the aircraft impair the indication of the magnetic compass?",
         "options": [
-          "None if the deviation is 0\u00b0",
-          "None if the magnetic compass is compensated properly and the deviation is 0\u00b0",
+          "None if the deviation is 0°",
+          "None if the magnetic compass is compensated properly and the deviation is 0°",
           "None, because the aircraft acts like a Faraday cage",
           "Electrical devices, metal parts (particularly iron), ignition system"
         ],
@@ -11532,12 +11621,12 @@ export const subjects = [
       {
         "id": "nav_121",
         "number": 121,
-        "question": "When is an aeronautical chart called \"conformal\"? When a straight course line drawn across an ICAO chart has the same intersection angle with all",
+        "question": "When is an aeronautical chart called \"conformal\"?",
         "options": [
-          "meridians along that track",
+          "When a straight course line drawn across an ICAO chart has the same intersection angle with all meridians along that track",
           "When using a cylindrical projection",
           "When an angle depicted on the chart is the same as on earth's surface at the same position",
-          "When all longitudes run parallel to each other and intersect the parallels at a right angles"
+          "When all longitudes run parallel to each other and intersect the parallels at right angles"
         ],
         "answer": 2
       },
@@ -11604,12 +11693,12 @@ export const subjects = [
       {
         "id": "nav_127",
         "number": 127,
-        "question": "On a TH of 270\u00b0 the wind correction angle (WCA) is -10\u00b0. The true heading (TH) for the return course is...",
+        "question": "On a TH of 270° the wind correction angle (WCA) is -10°. The true heading (TH) for the return course is...",
         "options": [
-          "090\u00b0.",
-          "080\u00b0.",
-          "100\u00b0.",
-          "110\u00b0."
+          "090°.",
+          "080°.",
+          "100°.",
+          "110°."
         ],
         "answer": 2
       },
@@ -11664,7 +11753,7 @@ export const subjects = [
       {
         "id": "nav_132",
         "number": 132,
-        "question": "Given a heading of 070\u00b0T and a track of 061\u00b0T, a TAS of 120 kt and a GS of 118 kt. The wind direction and velocity are...",
+        "question": "Given a heading of 070°T and a track of 061°T, a TAS of 120 kt and a GS of 118 kt. The wind direction and velocity are...",
         "options": [
           "150/19 kt.",
           "310/19 kt.",
@@ -11676,7 +11765,7 @@ export const subjects = [
       {
         "id": "nav_133",
         "number": 133,
-        "question": "Given a compass heading of 080\u00b0C, a compass deviation of 4\u00b0 E, a local magnetic variation of 5\u00b0 W. The true heading is...\"",
+        "question": "Given a compass heading of 080°C, a compass deviation of 4° E, a local magnetic variation of 5° W. The true heading is...",
         "options": [
           "081.",
           "084.",
@@ -11736,7 +11825,7 @@ export const subjects = [
       {
         "id": "nav_138",
         "number": 138,
-        "question": "With a TAS of 100 kt you are crossing point A on TH 040\u00b0 at 1425 UTC. At 1501 UTC you are on the course line 60 NM away from point A. You can conclude that...",
+        "question": "With a TAS of 100 kt you are crossing point A on TH 040° at 1425 UTC. At 1501 UTC you are on the course line 60 NM away from point A. You can conclude that...",
         "options": [
           "the GS is less than the TAS.",
           "the GS is larger than the TAS.",
@@ -11750,10 +11839,10 @@ export const subjects = [
         "number": 139,
         "question": "An aircraft's demonstrated cross wind limit for both T/O and landing is 16 kt. If the prevailing surface wind is 22 kt, what is the maximum acceptable angle of surface wind to runway for T/O and landing?",
         "options": [
-          "55\u00b0",
-          "60\u00b0",
-          "50\u00b0",
-          "45\u00b0"
+          "55°",
+          "60°",
+          "50°",
+          "45°"
         ],
         "answer": 0
       },
@@ -11856,7 +11945,7 @@ export const subjects = [
       {
         "id": "nav_148",
         "number": 148,
-        "question": "The pilot receives a QDM of 040\u00b0 from a VDF station. The aircraft's position in relation to the station is...",
+        "question": "The pilot receives a QDM of 040° from a VDF station. The aircraft's position in relation to the station is...",
         "options": [
           "north-west.",
           "south-west.",
@@ -12048,7 +12137,7 @@ export const subjects = [
       {
         "id": "nav_168",
         "number": 168,
-        "question": "Which characteristics apply to the ,,Lambert conformal projection\u201c?",
+        "question": "Which characteristics apply to the ,,Lambert conformal projection“?",
         "options": [
           "there are substantial distortions towards the top",
           "an almost equidistant, area accurate and orthomorphic projection",
@@ -12060,7 +12149,7 @@ export const subjects = [
       {
         "id": "nav_169",
         "number": 169,
-        "question": "Quasi- optical waves travel\u2026",
+        "question": "Quasi- optical waves travel…",
         "options": [
           "along the surface of the earth",
           "along the surface of the earth, but are absorbed by the sea",
@@ -12072,7 +12161,7 @@ export const subjects = [
       {
         "id": "nav_170",
         "number": 170,
-        "question": "Which answer explains the abbreviation \u201eHJ\u201c?",
+        "question": "Which answer explains the abbreviation „HJ“?",
         "options": [
           "variable time of operation",
           "sunrise until sunset",
@@ -12084,7 +12173,7 @@ export const subjects = [
       {
         "id": "nav_171",
         "number": 171,
-        "question": "What is meant by the term \u201eterrestrial navigation\u201c?",
+        "question": "What is meant by the term „terrestrial navigation“?",
         "options": [
           "orientation by ground celestial object during visual flight",
           "orientation by ground features during visual flight",
@@ -12096,7 +12185,7 @@ export const subjects = [
       {
         "id": "nav_172",
         "number": 172,
-        "question": "Assume calm wind and an aircraft descending from 9000 ft to 1500 ft. The rate of descent (ROD) equals 1200 ft/min. The elapsed time will be\u2026",
+        "question": "Assume calm wind and an aircraft descending from 9000 ft to 1500 ft. The rate of descent (ROD) equals 1200 ft/min. The elapsed time will be…",
         "options": [
           "6 min",
           "15 min",
